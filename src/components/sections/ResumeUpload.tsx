@@ -106,7 +106,7 @@ export function ResumeUpload() {
           {/* Upload Card */}
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 lg:gap-8 items-stretch">
             {/* Drop Zone */}
-            <div className="lg:col-span-3">
+            <div className="lg:col-span-3 flex flex-col h-full">
               <div
                 onDrop={onDrop}
                 onDragOver={onDragOver}
@@ -118,7 +118,7 @@ export function ResumeUpload() {
                 }}
                 className={[
                   "relative flex flex-col items-center justify-center rounded-[22px] border-2 border-dashed",
-                  "transition-all duration-300 min-h-[240px] p-8 text-center select-none",
+                  "transition-all duration-300 h-full w-full min-h-[300px] p-8 text-center select-none",
                   isDone
                     ? "border-emerald-300 bg-emerald-50/60 cursor-default"
                     : isDragging
@@ -213,13 +213,13 @@ export function ResumeUpload() {
             </div>
 
             {/* Benefits Sidebar */}
-            <div className="lg:col-span-2 flex flex-col gap-4">
+            <div className="lg:col-span-2 flex flex-col justify-between gap-3.5 h-full">
               {benefits.map((item, idx) => (
                 <div
                   key={item.title}
-                  className="flex items-start gap-3.5 bg-slate-50 rounded-2xl p-4 border border-slate-100 hover:border-indigo-100 hover:bg-indigo-50/30 transition-all duration-200 group"
+                  className="flex-1 flex items-start gap-3.5 bg-slate-50 rounded-2xl p-4 sm:p-4.5 border border-slate-100 hover:border-indigo-100 hover:bg-indigo-50/30 transition-all duration-200 group"
                 >
-                  <div className="w-7 h-7 rounded-lg bg-indigo-50 text-[#192CE7] flex items-center justify-center shrink-0 font-semibold text-xs border border-indigo-100/60">
+                  <div className="w-7 h-7 rounded-lg bg-indigo-50 text-[#192CE7] flex items-center justify-center shrink-0 font-semibold text-xs border border-indigo-100/60 mt-0.5">
                     0{idx + 1}
                   </div>
                   <div>
