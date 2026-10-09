@@ -51,11 +51,12 @@ export const JOBSEEKER_HERO_CONFIG = {
 };
 
 export const RECRUITER_HERO_CONFIG = {
-  headline: "Your next great hire is closer than you think.",
-  highlightWord: "closer than you think",
+  headline: "Build your dream team in the next 10 minutes.",
+  headlinePrefix: "Build your dream team",
+  highlightWord: "in the next 10 minutes.",
   description:
-    "Discover candidates matched to your requirements with AI-powered intelligence. Reduce manual screening and focus on people worth meeting.",
-  primaryCtaText: "Find Your Next Hire",
+    "Find candidates who match your role, requirements, and ambitions. Let Job10’s AI help you discover relevant talent in just 10 minutes — so you can spend less time screening and more time building your team.",
+  primaryCtaText: "Find Candidates for Me",
   primaryCtaHref: "#talent",
   secondaryCtaText: "See how it works",
   secondaryCtaHref: "#how-it-works",

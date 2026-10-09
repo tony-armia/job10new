@@ -49,22 +49,23 @@ export function RecruiterHero() {
         <div className="text-center max-w-4xl mx-auto">
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-[60px] font-bold text-slate-900 tracking-tight leading-[1.08] mb-4">
-            Your next great hire is<br className="hidden sm:inline" />{" "}
-            <span className="text-[#192CE7]">closer than you think.</span>
+            Build your dream team<br className="hidden sm:inline" />{" "}
+            <span className="text-[#192CE7]">in the next 10 minutes.</span>
           </h1>
 
-          {/* Subtitle strictly 2 lines on desktop */}
+          {/* Subtitle */}
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl sm:max-w-3xl mx-auto font-normal leading-relaxed mb-8">
-            The modern talent platform loved by recruiters and hiring teams — with{" "}
+            Find candidates who match your role, requirements, and ambitions.
+            <br className="hidden sm:inline" />{" "}
+            Let Job10&apos;s{" "}
             <span className="relative inline-block font-bold text-slate-900 px-2.5 py-0.5 mx-0.5 animate-badge-slow transition-transform duration-500 hover:scale-105 hover:-translate-y-0.5 cursor-default select-none group">
-              <span className="relative z-10">AI at the core.</span>
+              <span className="relative z-10">AI</span>
               <span
                 className="absolute inset-0 rounded-full scale-105 -z-0 opacity-95 bg-[#FCE0E7] shadow-2xs transition-all duration-300 group-hover:bg-[#FCD8E3]"
                 aria-hidden="true"
               />
-            </span>
-            <br className="hidden sm:inline" />{" "}
-            Reduce manual screening and focus on people worth meeting.
+            </span>{" "}
+            help you discover relevant talent in just 10 minutes — so you can spend less time screening and more time building your team.
           </p>
 
           {/* CTAs: Purple primary button + subordinate text link */}
