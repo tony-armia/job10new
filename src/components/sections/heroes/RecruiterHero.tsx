@@ -61,7 +61,7 @@ export function RecruiterHero() {
             <span className="relative inline-block font-bold text-slate-900 px-3 py-0.5 mx-0.5 animate-badge-slow transition-transform duration-500 hover:scale-105 hover:-translate-y-0.5 cursor-default select-none group">
               <span className="relative z-10">Job10&apos;s AI</span>
               <span
-                className="absolute inset-0 rounded-full scale-105 -z-0 opacity-95 bg-[#FCE0E7] shadow-2xs transition-all duration-300 group-hover:bg-[#FCD8E3]"
+                className="absolute inset-0 rounded-full scale-105 -z-0 bg-gradient-to-r from-[#DBEAFE] via-[#E0EAFF] to-[#EFF6FF] border border-blue-200/70 shadow-2xs transition-all duration-300 group-hover:from-[#CFE4FE] group-hover:to-[#E2EEFF]"
                 aria-hidden="true"
               />
             </span>{" "}
