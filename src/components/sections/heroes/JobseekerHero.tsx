@@ -47,7 +47,15 @@ export function JobseekerHero() {
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-normal leading-relaxed mb-8">
             Find opportunities that match your skills, experience, and ambitions.
             <br className="hidden sm:inline" />{" "}
-            Let Job10&apos;s AI help you discover relevant job matches in just 10 minutes.
+            Let{" "}
+            <span className="relative inline-block font-bold text-slate-900 px-3 py-0.5 mx-0.5 animate-badge-slow transition-transform duration-500 hover:scale-105 hover:-translate-y-0.5 cursor-default select-none group">
+              <span className="relative z-10">Job10&apos;s AI</span>
+              <span
+                className="absolute inset-0 rounded-full scale-105 -z-0 opacity-95 bg-[#FCE0E7] shadow-2xs transition-all duration-300 group-hover:bg-[#FCD8E3]"
+                aria-hidden="true"
+              />
+            </span>{" "}
+            help you discover relevant job matches in just 10 minutes.
           </p>
 
           {/* Centered CTAs */}
