@@ -38,12 +38,12 @@ export const HEADER_CONFIG: Record<Audience, HeaderNavConfig> = {
 };
 
 export const JOBSEEKER_HERO_CONFIG = {
-  headline: "The right job is closer than you think.",
-  headlinePrefix: "The right job is",
-  highlightWord: "closer than you think.",
+  headline: "Start your next chapter in the next 10 minutes.",
+  headlinePrefix: "Start your next chapter",
+  highlightWord: "in the next 10 minutes.",
   description:
-    "Discover opportunities that match your skills, experience, and ambitions. Spend less time searching and more time moving your career forward.",
-  primaryCtaText: "Find My Next Job",
+    "Find opportunities that match your skills, experience, and ambitions. Let Job10’s AI help you discover relevant job matches in just 10 minutes.",
+  primaryCtaText: "Find Jobs for Me",
   primaryCtaHref: "#jobs",
   secondaryCtaText: "See how it works",
   secondaryCtaHref: "#how-it-works",

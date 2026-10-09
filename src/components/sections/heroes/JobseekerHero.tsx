@@ -45,9 +45,9 @@ export function JobseekerHero() {
 
           {/* Subtitle / Supporting Copy */}
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-normal leading-relaxed mb-8">
-            Discover opportunities that match your skills, experience, and ambitions.
+            Find opportunities that match your skills, experience, and ambitions.
             <br className="hidden sm:inline" />{" "}
-            Spend less time searching and more time moving your career forward.
+            Let Job10&apos;s AI help you discover relevant job matches in just 10 minutes.
           </p>
 
           {/* Centered CTAs */}
