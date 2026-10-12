@@ -120,13 +120,6 @@
         height: 14px !important;
         width: 100% !important;
       }
-      .mobile-cat-cell {
-        display: inline-block !important;
-        width: 46% !important;
-        margin: 2% !important;
-        box-sizing: border-box !important;
-        vertical-align: top !important;
-      }
       .mobile-hide {
         display: none !important;
         visibility: hidden !important;
@@ -235,7 +228,7 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- 03 — RESUME MATCHING CARD (WITH VISUAL CV MOCKUP & CHECKLIST)   -->
+          <!-- 03 — RESUME MATCHING CARD (WITH REAL ICONS & CHECKLIST)         -->
           <!-- =============================================================== -->
           <tr>
             <td align="center" style="padding: 12px 34px 28px 34px;" class="mobile-padding">
@@ -244,11 +237,17 @@
                   <td style="padding: 24px 22px;" class="mobile-padding">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <!-- Left: Visual Resume Mockup Card -->
+                        <!-- Left: Visual Resume Mockup Card with Real Icon -->
                         <td width="190" valign="middle" class="mobile-stack" style="padding-right: 18px;">
                           <div style="background-color: #FFFFFF; border: 1px solid #D6E2FC; border-radius: 10px; padding: 16px 14px; box-shadow: 0 4px 12px rgba(25, 44, 231, 0.05); text-align: left;">
-                            <div style="width: 28px; height: 28px; border-radius: 6px; background-color: #EEF2FF; text-align: center; line-height: 28px; color: #192CE7; font-size: 14px; margin-bottom: 8px;">
-                              &#128196;
+                            <div style="width: 28px; height: 28px; border-radius: 6px; background-color: #EEF2FF; text-align: center; margin-bottom: 8px;">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" height="28">
+                                <tr>
+                                  <td align="center" valign="middle">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABoElEQVRoge2ZvU7DQAzHUxZeoBC7wFaJqmeJF2FEYmEEwcRbwAuBmPjYEGzMjIj4QplQ2YgUdFlo06pKcvElQfeXvDSV7V/tO6dyEHi1XmkPiE+R+BkVfyPp1MaAOAEVXzpJfWf3c4DE97ZJL7OB0ofC6adrSPwgkXxmihMgPhJLH4jPxJL/g/gRq0TW8/PBrjcpDqv7cwyBxNPZQBvjD7Dz57gSmAtStz+TNEqeCWkAGPOBKIQ0gPkMJCFcAIhCuAIQg3AJIAIhfgsVNjbvTxcdBtApKJ3UDhAqvQ/E0UIw4sg8y38flH63gQjqBliVkHlWFBi7AlB3fOct1DoAaaEHIF+Bbh5iLDukaPmhb/QaLQ2hFq9dD4D/vYWkhR6AfAWshH4OkJ8DaasHWejnwGqhnwPk50DTLcRzCw6b7Uy15aKeAeCv0k6Q+Cnn5Mp2S1NE/dEEUemb+WuWH0s7QtLndf1hsbZxdFIaYDh8XQfil6aTB8W3ZtkeVNH23tsWEt81mXx/NMHATmnPlND0Yf5gyxhPs1gqPq78y3sF7vQLSkjMC4XQXZwAAAAASUVORK5CYII=" width="18" height="18" alt="Resume" border="0" style="display: block; width: 18px; height: 18px;" />
+                                  </td>
+                                </tr>
+                              </table>
                             </div>
                             <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; color: #64748B; margin-bottom: 2px;">
                               Resume
@@ -259,13 +258,22 @@
                             <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; color: #64748B; margin-top: 4px;">
                               4+ years exp &bull; PDF
                             </div>
-                            <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #F1F5F9; font-family: 'General Sans', Arial, sans-serif; font-size: 11px; color: #059669; font-weight: 500;">
-                              &check; Verified match
+                            <div style="margin-top: 10px; padding-top: 8px; border-top: 1px solid #F1F5F9;">
+                              <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                  <td valign="middle" width="16" style="width: 16px;">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVRYhd2YS2sTURSA49rHQmnm3ghdCZK5NyHVrSIiWKItLqSl4NKF7l24UKvgxkddCa5EcaH4CPgvhES7t7YalXhOQqIxDwvF1CtnTCYzmTTzyCSoBw7zvDPfnNc9dyKR/0F44ssBJmGRS8xwiTkmYZWU9rnEF0zClVi8MDVSiAm9xLjAO0ziJy5RedSPXOBSVBa10EC0JG7nCbzIJdR8gNhVQJMJuLF7X2XXsDCSC/gQGMShsKbFUQSCiQmc5RLq4cGYUDVN4EwQmM3wYUwXtjxDRRPFxGgsg05LubmPgi7cmEHXmJrQSzu2BOISr48PBg1lEq4OqDPQHDcQl9DoW6eo6IX5olgC1dzZr4bSvsv9t3tw1DafFVi56aNnP1RH7t5vDr5fQN5unQQcDBNm8WZdWWVl7ae7RfVCygRqT5ShwJw5/021Nm086t7DpntwC7hsza5MGDCHZ8uqVrfTZJc31ORU0X28wOfWgH7jNuDY6bLxcNLp+Yrjun6opPKfWzYYOqbzHj8o13WZwBW3AdnlDfNFZIX0QhdqMoXq1evudeOexi915FTZs3WZwLeBgXqhHmfWlVUohiiW/LjbBuTFZdPzFUd80PGDJ9307ghlWYAYzPkO6uNzFVX93pNCPfL05XqwpLAGNfXAXgemF5yW6gjFkaeM6usyuGQCUUPuZ3C6D5TPjHLoXllM2qYOoyH3CVVtu4+2fjLKdepoB/aS3weljpbUuQtVYxsYxlC41b/9kNAY7sEYBKauJTHqAGpb6dq4gZh1DuuVPfvLO7mA92ODkbBK677IIKHGe6hFofTsqhoTEB8IY0IJnKGlCh8VjIAWk3DCE4wNSo7CUlDTJJ70BWNznwgvpoy/JDrogWD+yp8NVqGlCq0OqKr6AMlT0duyzoQlMb2QovpBMzSXkGUS3v3pqSBL52iitDXt/7L8BjkyV5HdteVZAAAAAElFTkSuQmCC" width="14" height="14" alt="Verified" border="0" style="display: block; width: 14px; height: 14px;" />
+                                  </td>
+                                  <td valign="middle" style="padding-left: 4px; font-family: 'General Sans', Arial, sans-serif; font-size: 11px; color: #059669; font-weight: 500;">
+                                    Verified match
+                                  </td>
+                                </tr>
+                              </table>
                             </div>
                           </div>
                         </td>
 
-                        <!-- Right: Value Proposition & Checklist -->
+                        <!-- Right: Value Proposition & Real Checkmarks -->
                         <td valign="middle" class="mobile-stack" align="left" style="padding-top: 4px;">
                           <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #192CE7;">
                             Resume matching
@@ -277,22 +285,28 @@
                             Upload your resume once. Our matching engine evaluates your skills, experience and preferences to surface relevant opportunities.
                           </p>
 
-                          <!-- Checkpoints -->
+                          <!-- Checkpoints with Real Checkmark Icons -->
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 14px;">
                             <tr>
-                              <td width="16" valign="top" style="color: #192CE7; font-size: 12px; line-height: 1.5;">&check;</td>
-                              <td valign="top" style="padding-left: 6px; padding-bottom: 4px; font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; color: #475569; line-height: 1.5;">
+                              <td width="18" valign="top" style="width: 18px; padding-top: 2px;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVRYhd2YS2sTURSA49rHQmnm3ghdCZK5NyHVrSIiWKItLqSl4NKF7l24UKvgxkddCa5EcaH4CPgvhES7t7YalXhOQqIxDwvF1CtnTCYzmTTzyCSoBw7zvDPfnNc9dyKR/0F44ssBJmGRS8xwiTkmYZWU9rnEF0zClVi8MDVSiAm9xLjAO0ziJy5RedSPXOBSVBa10EC0JG7nCbzIJdR8gNhVQJMJuLF7X2XXsDCSC/gQGMShsKbFUQSCiQmc5RLq4cGYUDVN4EwQmM3wYUwXtjxDRRPFxGgsg05LubmPgi7cmEHXmJrQSzu2BOISr48PBg1lEq4OqDPQHDcQl9DoW6eo6IX5olgC1dzZr4bSvsv9t3tw1DafFVi56aNnP1RH7t5vDr5fQN5unQQcDBNm8WZdWWVl7ae7RfVCygRqT5ShwJw5/021Nm086t7DpntwC7hsza5MGDCHZ8uqVrfTZJc31ORU0X28wOfWgH7jNuDY6bLxcNLp+Yrjun6opPKfWzYYOqbzHj8o13WZwBW3AdnlDfNFZIX0QhdqMoXq1evudeOexi915FTZs3WZwLeBgXqhHmfWlVUohiiW/LjbBuTFZdPzFUd80PGDJ9307ghlWYAYzPkO6uNzFVX93pNCPfL05XqwpLAGNfXAXgemF5yW6gjFkaeM6usyuGQCUUPuZ3C6D5TPjHLoXllM2qYOoyH3CVVtu4+2fjLKdepoB/aS3weljpbUuQtVYxsYxlC41b/9kNAY7sEYBKauJTHqAGpb6dq4gZh1DuuVPfvLO7mA92ODkbBK677IIKHGe6hFofTsqhoTEB8IY0IJnKGlCh8VjIAWk3DCE4wNSo7CUlDTJJ70BWNznwgvpoy/JDrogWD+yp8NVqGlCq0OqKr6AMlT0duyzoQlMb2QovpBMzSXkGUS3v3pqSBL52iitDXt/7L8BjkyV5HdteVZAAAAAElFTkSuQmCC" width="14" height="14" alt="Check" border="0" style="display: block; width: 14px; height: 14px;" />
+                              </td>
+                              <td valign="top" style="padding-left: 6px; padding-bottom: 5px; font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; color: #475569; line-height: 1.5;">
                                 Automated skill and experience matching
                               </td>
                             </tr>
                             <tr>
-                              <td width="16" valign="top" style="color: #192CE7; font-size: 12px; line-height: 1.5;">&check;</td>
-                              <td valign="top" style="padding-left: 6px; padding-bottom: 4px; font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; color: #475569; line-height: 1.5;">
+                              <td width="18" valign="top" style="width: 18px; padding-top: 2px;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVRYhd2YS2sTURSA49rHQmnm3ghdCZK5NyHVrSIiWKItLqSl4NKF7l24UKvgxkddCa5EcaH4CPgvhES7t7YalXhOQqIxDwvF1CtnTCYzmTTzyCSoBw7zvDPfnNc9dyKR/0F44ssBJmGRS8xwiTkmYZWU9rnEF0zClVi8MDVSiAm9xLjAO0ziJy5RedSPXOBSVBa10EC0JG7nCbzIJdR8gNhVQJMJuLF7X2XXsDCSC/gQGMShsKbFUQSCiQmc5RLq4cGYUDVN4EwQmM3wYUwXtjxDRRPFxGgsg05LubmPgi7cmEHXmJrQSzu2BOISr48PBg1lEq4OqDPQHDcQl9DoW6eo6IX5olgC1dzZr4bSvsv9t3tw1DafFVi56aNnP1RH7t5vDr5fQN5unQQcDBNm8WZdWWVl7ae7RfVCygRqT5ShwJw5/021Nm086t7DpntwC7hsza5MGDCHZ8uqVrfTZJc31ORU0X28wOfWgH7jNuDY6bLxcNLp+Yrjun6opPKfWzYYOqbzHj8o13WZwBW3AdnlDfNFZIX0QhdqMoXq1evudeOexi915FTZs3WZwLeBgXqhHmfWlVUohiiW/LjbBuTFZdPzFUd80PGDJ9307ghlWYAYzPkO6uNzFVX93pNCPfL05XqwpLAGNfXAXgemF5yW6gjFkaeM6usyuGQCUUPuZ3C6D5TPjHLoXllM2qYOoyH3CVVtu4+2fjLKdepoB/aS3weljpbUuQtVYxsYxlC41b/9kNAY7sEYBKauJTHqAGpb6dq4gZh1DuuVPfvLO7mA92ODkbBK677IIKHGe6hFofTsqhoTEB8IY0IJnKGlCh8VjIAWk3DCE4wNSo7CUlDTJJ70BWNznwgvpoy/JDrogWD+yp8NVqGlCq0OqKr6AMlT0duyzoQlMb2QovpBMzSXkGUS3v3pqSBL52iitDXt/7L8BjkyV5HdteVZAAAAAElFTkSuQmCC" width="14" height="14" alt="Check" border="0" style="display: block; width: 14px; height: 14px;" />
+                              </td>
+                              <td valign="top" style="padding-left: 6px; padding-bottom: 5px; font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; color: #475569; line-height: 1.5;">
                                 Curated roles from verified employers
                               </td>
                             </tr>
                             <tr>
-                              <td width="16" valign="top" style="color: #192CE7; font-size: 12px; line-height: 1.5;">&check;</td>
+                              <td width="18" valign="top" style="width: 18px; padding-top: 2px;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAACx0lEQVRYhd2YS2sTURSA49rHQmnm3ghdCZK5NyHVrSIiWKItLqSl4NKF7l24UKvgxkddCa5EcaH4CPgvhES7t7YalXhOQqIxDwvF1CtnTCYzmTTzyCSoBw7zvDPfnNc9dyKR/0F44ssBJmGRS8xwiTkmYZWU9rnEF0zClVi8MDVSiAm9xLjAO0ziJy5RedSPXOBSVBa10EC0JG7nCbzIJdR8gNhVQJMJuLF7X2XXsDCSC/gQGMShsKbFUQSCiQmc5RLq4cGYUDVN4EwQmM3wYUwXtjxDRRPFxGgsg05LubmPgi7cmEHXmJrQSzu2BOISr48PBg1lEq4OqDPQHDcQl9DoW6eo6IX5olgC1dzZr4bSvsv9t3tw1DafFVi56aNnP1RH7t5vDr5fQN5unQQcDBNm8WZdWWVl7ae7RfVCygRqT5ShwJw5/021Nm086t7DpntwC7hsza5MGDCHZ8uqVrfTZJc31ORU0X28wOfWgH7jNuDY6bLxcNLp+Yrjun6opPKfWzYYOqbzHj8o13WZwBW3AdnlDfNFZIX0QhdqMoXq1evudeOexi915FTZs3WZwLeBgXqhHmfWlVUohiiW/LjbBuTFZdPzFUd80PGDJ9307ghlWYAYzPkO6uNzFVX93pNCPfL05XqwpLAGNfXAXgemF5yW6gjFkaeM6usyuGQCUUPuZ3C6D5TPjHLoXllM2qYOoyH3CVVtu4+2fjLKdepoB/aS3weljpbUuQtVYxsYxlC41b/9kNAY7sEYBKauJTHqAGpb6dq4gZh1DuuVPfvLO7mA92ODkbBK677IIKHGe6hFofTsqhoTEB8IY0IJnKGlCh8VjIAWk3DCE4wNSo7CUlDTJJ70BWNznwgvpoy/JDrogWD+yp8NVqGlCq0OqKr6AMlT0duyzoQlMb2QovpBMzSXkGUS3v3pqSBL52iitDXt/7L8BjkyV5HdteVZAAAAAElFTkSuQmCC" width="14" height="14" alt="Check" border="0" style="display: block; width: 14px; height: 14px;" />
+                              </td>
                               <td valign="top" style="padding-left: 6px; font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; color: #475569; line-height: 1.5;">
                                 Your profile stays private and in your control
                               </td>
@@ -320,7 +334,7 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- 04 — WHY PROFESSIONALS CHOOSE JOB10 (3-COLUMN FEATURE GRID)     -->
+          <!-- 04 — WHY PROFESSIONALS CHOOSE JOB10 (WITH REAL ICONS)           -->
           <!-- =============================================================== -->
           <tr>
             <td align="left" style="padding: 10px 34px 28px 34px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
@@ -351,15 +365,21 @@
                   </td>
                 </tr>
 
-                <!-- 3 Pillars Row -->
+                <!-- 3 Pillars Row with Real Icons -->
                 <tr>
                   <td>
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <!-- Col 1 -->
+                        <!-- Col 1: Search Icon -->
                         <td width="31%" valign="top" class="mobile-stack" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 12px;">
-                          <div style="width: 28px; height: 28px; border-radius: 6px; background-color: #EEF2FF; text-align: center; line-height: 28px; color: #192CE7; font-size: 13px; margin-bottom: 8px;">
-                            &#128269;
+                          <div style="width: 30px; height: 30px; border-radius: 6px; background-color: #EEF2FF; margin-bottom: 8px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" height="30">
+                              <tr>
+                                <td align="center" valign="middle">
+                                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADfklEQVRoge1ZvU8UQRSfCGoilQmwM6cxfiDGndkzEWNiAEkssLHARCSoPWoL0f+CoJ1iYqHRhtZCG/CzEmlQ0USMCfPegdiLyK15exjvZveUvZ09vOR+ySSX+/jN/N6+eV/HWB111JEILXLxAJdwlSt4yBXOcIXfhIQftLjCZa7wDVfwgEu40url9rP/Av1+g1D6IpfwSij0N74gzxW8FG5ukDjYZkBIfZpL/BDv4OHFJc4JqXurd/AOvYMruJP04GEhcIP1+I2pHt7JYiuXOF3GLdaEgkmuYFhI3dmqcg7r8LfSotfC1V1cwoiQOFX4bqSIJ3u8LzvTPPxcaGMJP7nC23SJY114BeP02wghb62LCNwmwvJc4nvhQUelvFzBMSHhU4hX4WOr7hRYK2R5fORksSkpt2jXzeR6YREwZi3aRB0+8G9LcN3ZbVEi6C4lY+73GyJC5Tsblo98EhLmDVd6kYzUy10wL6zw9FGWEjIqd4KSXKnBdF/FhKEMK/EWSxlC4YSVp7DbXWwrtQasxQmVlSLjLRwy9s07WdwXm4gKMyNRTbIqQUh8akSky7FJqHI0suQIqxKExGtGvrkfm4RKYrshbeMQnu42BEzHJqEavpiESglWJbS4i9wIHkuxSbjClWISm4nrX2hr+7jdiETfEwugbMlqTMByMUlQHteYC82UkLi6i23SJRYSX9dWGPXwuiHgXmwSmh4YJFOpnDZyb3xmJLKh2CRUNpilBJUXLGXsOrx0MFRKHMG9FZEFo49SS4yzlCEk3DUi0HOr5TS1gSwlOC4eNxv+jMSBpA1NaSNPTUe7bmbpNDSfjQJyljF/SzJiqXtDrR5VphYzs5PFJiG1cXj0HRdPWdmAS7gZJcLGkyhYXocOLySOMmvo8Rtp6BTeBOapDUzk80YfLAq8eeHlBu0JYIzRsImGThFPgkLeBHVSsUJlEG2iJ3SiIGI12QUuI4KGTtGbQj7opKgZ8XQ31TNUANKi19yDk5RhKSyGG3f8Y/lw1LtkVUTgTgrGylqu0iVx1FF4niyfvohCdOo0E11lC2aLow134VzVRARClO77q1uUcTf6TcHHw3GeV1sEgUYfND2gBpx62PW/lVbW11cqiYPPFAxtpLbhmyHCNjISByJErAqlz7JaFsElLrBaQsYQUXMCCOQ2XIGm5Ug8E7xZRx11sN/4BSpFXhaCMPecAAAAAElFTkSuQmCC" width="16" height="16" alt="Search" border="0" style="display: block; width: 16px; height: 16px;" />
+                                </td>
+                              </tr>
+                            </table>
                           </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 500; color: #0F172A; margin-bottom: 4px;">
                             Relevant opportunities
@@ -371,10 +391,16 @@
 
                         <td width="3%" class="mobile-stack-gap" style="width: 3%;">&nbsp;</td>
 
-                        <!-- Col 2 -->
+                        <!-- Col 2: Verified Icon -->
                         <td width="31%" valign="top" class="mobile-stack" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 12px;">
-                          <div style="width: 28px; height: 28px; border-radius: 6px; background-color: #EEF2FF; text-align: center; line-height: 28px; color: #192CE7; font-size: 13px; margin-bottom: 8px;">
-                            &#128196;
+                          <div style="width: 30px; height: 30px; border-radius: 6px; background-color: #EEF2FF; margin-bottom: 8px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" height="30">
+                              <tr>
+                                <td align="center" valign="middle">
+                                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADbklEQVRoge1ZzUsVURS/kBmVfRmvOVdEFwnpnPsMdNNOaNWiCNNqEbRsXy76D9rlokVhG3ctWrptI4oWlEFiIbbItDnHR69AKIISXpxRw5k3897Mm3kfxvvBhfdm5p7zO3d+536cUaqJ/xA66wwA0iONtCHN/Z11BlQjo9Nea9dZugOG32rDhZD2QWf5fsbOgWoE2PZSawfyFY38XCP9LkHc25C2AOkFIN3uvLB2uG4SAcP5yKRDGhjO10RiZ8yGBYbuaaTFCCP8BwxNAdI1txmakmsR+i2KD/FVL4m8F40HEfiXI8gLNZGYhXxZI+WqIYFYEkTKCZfYAQDylygSkbekKoRtL7VGkZhwiW08rkSSorOMxJIHUMOFSGedgdQDqArTEmgGoJtvIBl0MwdMM4kDoY0zDIYcaVaJFbYhJdSBfHPvigslVtiGC8BPfl8F0BFAfvu/M1z3AETHu5oGpJGo5OW6SsF/YgOeXauPWKXkUwkAkH96jAw6RyJtu3cIJiFv9fNRX78fsQPQhlc9CddH3cEB0EigviskLxBfvjewquICkOb3GpGjZdizgaNdIXmBe4z1zFY0r+JCI497SfDDUs+HBhGTvEB8+XyPq7iQKc4zCoYcNVRoKdUHbBr1BIG0pY1zK5bjoUKL+PIORPh0WyaRaNMThE2jcbYKQdNqOYAMgoc8bQqX2AG4ZJCf+FbO5XJvIRGuFw64526vDB9XbE8bp7do+Tc0pqoEMDQWsFr3JjKqkSe8AfAvq5+NShlWH6PY9iXvRGLDUkn2F6DA0Ecpg6TCXCnVlf18Cgyt+AYqn1oV2zJ8o3h65OmKk8s/WSBP++2LT5UmwPDToCAydq6tUpsZO9cWRF58qbSxXQbkmQBns6fPfT0W1570AcOzRfaQZ5KUK0vi1OD3E9rQq2Kn9C6DubNR7Wjb6dLIrwPIL6SZW+FBIL0s3vPQps5uXC3XH2y6BIa/BcjxTdXJ76K9J38cDM2F1PUf9PSsHPL3kWtyb3t74ZchzYlNVUvI+QAMPQvZfS7uLQa7xdqQLzsgNkLOGjWBu3oG70K33K2I24pHfecbw5hqBFg2XwTk9dDzQHGyrksf1UjoPv/ppEaaLBsA0qQ8qxoVILMM8nLAqC/LPbUvMFg4CDbd1YZImvyWa/Wm1YSqAv4CVNUmFAqKST4AAAAASUVORK5CYII=" width="16" height="16" alt="Verified" border="0" style="display: block; width: 16px; height: 16px;" />
+                                </td>
+                              </tr>
+                            </table>
                           </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 500; color: #0F172A; margin-bottom: 4px;">
                             Verified employers
@@ -386,10 +412,16 @@
 
                         <td width="3%" class="mobile-stack-gap" style="width: 3%;">&nbsp;</td>
 
-                        <!-- Col 3 -->
+                        <!-- Col 3: Speed Icon -->
                         <td width="31%" valign="top" class="mobile-stack" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px 12px;">
-                          <div style="width: 28px; height: 28px; border-radius: 6px; background-color: #EEF2FF; text-align: center; line-height: 28px; color: #192CE7; font-size: 13px; margin-bottom: 8px;">
-                            &#9889;
+                          <div style="width: 30px; height: 30px; border-radius: 6px; background-color: #EEF2FF; margin-bottom: 8px;">
+                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" height="30">
+                              <tr>
+                                <td align="center" valign="middle">
+                                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACIElEQVRoge2asU4CQRCGRzpja2CXQKvJ3WKjBQ9hrLAw+hg+gj6BL2GDjW9hgYVPgIEZEisxxo4zAyGBZbnjYO+YI/zJNrAhM7c3378zAWCvHVc1GFwpg31elZAuoUgqNwZNZehPG4p4qZB6UBRVw15dG6Rp8JOFQyiCKmd0pAx15oOnSIf4AfIVHSiDzwvBT07gFaRLGXx0B881gE8gWapB19rgKCaBe5Aq3cBzFdLvsuDHCQTYgqIQR43xicP5z/ACpKnW/DzUht6sYh0pg3d2AvqkfwwFIc4DB2sl9QNFII4K6QUgKvHrItoDlIM4ytA7m9j4+wBbYj1AO4mDxMU83cPIFOkB9dOvKl/KbOLwxW12HwcszgNqMcSx9/IrI8wDopI21HYRx7WbizbO1NIutWk/MUbj4g+3OTH3fvz2mYDepJ/Qpn/rIE5nShyXlKGuiATKVlflIo5LfNx87P4SwJEOBjeZECcvd4esiJOXu0PuT8Gzu+f9FLy7+0riQonrqrLgd3VJP7FWrdlF6ycJ6qabYOCI0Z06+KwSYFPz4e4ryT+/l/cCOqW756ZVegFvxMlCSb2AN+JkpbheYDvunlLLeoFtuXtq2b3AZB60HXdfS6550DbcfS255kGiiWNrYR5kcLhOPyHIAxauFbKIk+QB4omT5AHiiZPkAaKJs+o8KGmCIdsDJBPHpdl7jnjixPUTvPhvBs5Ne+2Q/gGzJJ87NIXDhAAAAABJRU5ErkJggg==" width="16" height="16" alt="Speed" border="0" style="display: block; width: 16px; height: 16px;" />
+                                </td>
+                              </tr>
+                            </table>
                           </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 500; color: #0F172A; margin-bottom: 4px;">
                             Faster decisions
@@ -606,7 +638,7 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- 07 — POPULAR CATEGORIES (5-CARD HORIZONTAL GRID)                -->
+          <!-- 07 — POPULAR CATEGORIES (WITH REAL VECTOR ICONS)                -->
           <!-- =============================================================== -->
           <tr>
             <td align="left" style="padding: 10px 34px 28px 34px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
@@ -637,14 +669,16 @@
                   </td>
                 </tr>
 
-                <!-- 5 Category Cards Row -->
+                <!-- 5 Category Cards with Real Icons -->
                 <tr>
                   <td>
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <!-- Cat 1 -->
+                        <!-- Cat 1: Code Icon -->
                         <td width="18%" valign="top" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 6px; text-align: center;">
-                          <div style="font-size: 14px; color: #192CE7; margin-bottom: 4px;">&lt;/&gt;</div>
+                          <div style="margin-bottom: 6px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVRoge2YMQ7CMAxFcwt+OAIJN2GpADHA8UlyCJBAFh0z0NZ22shP6sBg859UxW6cMwzDMAxjg/iYBsSc6NmFcppaTzUY6xHy2WmyD+XmQ375WD70IJTn1B5U48d66kU9XYvwLAJRSaIW/vc7DVN70WvjK73EJHAs18ofvn1M99k9D/lS64mYH6sPryYBwfDiEhrhxSQ0w7NLtAjPJtEy/GKJNYSfLaE+WLgHJ1qMds7VpQOBvO1XSHU3+QPMPVDWIIGlp2FLCXAd5S0kwD2HNCUgNUQ1JCC9AUhKQGt9kZCA9u616Y/6Lq5VurjY6uJq0TAMwzAMx8MXINvOjabvW1gAAAAASUVORK5CYII=" width="18" height="18" alt="Code" border="0" style="display: block; margin: 0 auto; width: 18px; height: 18px;" />
+                          </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #0F172A; line-height: 1.25;">
                             Software Dev
                           </div>
@@ -655,9 +689,11 @@
 
                         <td width="2%">&nbsp;</td>
 
-                        <!-- Cat 2 -->
+                        <!-- Cat 2: Design Icon -->
                         <td width="18%" valign="top" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 6px; text-align: center;">
-                          <div style="font-size: 14px; color: #7C3AED; margin-bottom: 4px;">&#9998;</div>
+                          <div style="margin-bottom: 6px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEJ0lEQVRoge1YTYgUVxBuRQk5mFzEmOhNcgp4WdzperMyVwUF489K1JOoF0kgsCL2e03Hg8Je3BVBUUS8xmMCOZhoDoo/rKAHvaqIRt2papdxDwvu2lI9GZl+/Xq7e7qd7QU/aNjZefNefdX1fVXdlvUZFYGCN8cl0KwEnFOAExJoxB3CmtcIllmLAUrgrBIUxC6gaQl0VQG6ru03frWffWlVEVLgnJFAjBDOKMAbCuiEU6fNR0RzhVUFKMCJTATihGYl0D0laExBc5vXaK1cEAISaKQnArEL3yugRxLwnLL9Pd4gru0LAXcIa0lBsbAl0HUOrLe7RP8pQVdcoEOqTj9YVrCkdAJeI1imgFrzlYoS/j5vw+vVEmiXEnSaSyezdqLXKynwTwV01B1qDnhWsLQUEqHbRDLfnDORiBJvreTaZw2EWgjX5CekwN9SmABbpXbr/5WA79JIdINdid2JXartVjiThYQU9LJwabHPa8E+VoA785LoBveNcF9At91PaDqZxNS6QgT4MD1j7CJFSehaY8Ng15MCn0T2rNOwVRRS4M2oDugn/n+ZJDpQgKPafqPFCQCd1DY923VgqSRUnYa1MrpWmEAowGgPeBg5tEQSUkyt05rgVGEhe4P4VdQK8b0HL1dlI0GXlKC7oVDbQ+AdB/CXnzcFX5hPC5ZIgVSqkBn/zzYfN3Vs/DG2RtDuGInkTv7AsXGN6Swl6FrpQg4Hs6iQTxmJ5iJB103loT6FkFUdt2sNbWIeshezdlyehfoiZI/HA54qu+r76ID/dQKBu5oQnx6rvfqGr3DeiSbidl+EzNAnT2nTJssACfQ20vg2vF7d+c7ZOPmtRqDVRyHjOe3wE6Z1+gTLme9854nmd+kErLiQAX0J9MIRuKNnAvwwom16w0yU7mjr/uDM8yUB/0orIaOQy+j04QwU3WzG9EDPPp9VxErQAdNZKi7kckiE02i3i9h+Q1/DTUoB3s8Q/N9J4nQAL6T0kXds2T0QoMtaNlxjADauidVxRJT0D5eU6bdS0HhS0IVJKMD9WjO6mrya3YQOSsBboTMBtfjvdtmYMy+1htl1zlgpM5eqTX6viXD60ECw3CoBYZDCeLfOzNfp+XMud2I7697AsXGwH8GnjCvPrayQgL9rt3ck848LBl8Sgebh6EH4JPTtOg3n7ZiJghU0nrC+eAkdq/nrUyzuDbtMGqlEwYqEzAPtMolYCn9vvoZmBUv5lUeOZhUj5dp4fkGC74BfOoUvn3KQSCXZr+Bjoy+3fcBRzjBnetEEnwSeOJ26v1UC/dZ+34mTPQUvzILtaYQoivZDij7jU+DkeDSVCxV8B+zVWQKSVQyewV6dFpisavAdzDeQLYhge0Filquc+bzvj2SVg08jIRdD8ImagArWfDZ3oheFX5t8hlUNfAARVnNpOXbHhAAAAABJRU5ErkJggg==" width="18" height="18" alt="Design" border="0" style="display: block; margin: 0 auto; width: 18px; height: 18px;" />
+                          </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #0F172A; line-height: 1.25;">
                             Product &amp; Design
                           </div>
@@ -668,9 +704,11 @@
 
                         <td width="2%">&nbsp;</td>
 
-                        <!-- Cat 3 -->
+                        <!-- Cat 3: Data Icon -->
                         <td width="18%" valign="top" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 6px; text-align: center;">
-                          <div style="font-size: 14px; color: #059669; margin-bottom: 4px;">&#128202;</div>
+                          <div style="margin-bottom: 6px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnklEQVRoge3WQQrEMAiFYSF6ux6kPdDkhNNzdAhM1+IiaNr/AyGLLCI+giIA8Eit75v2/Rw1zrIa/Rxf68c1apxlNfZ//F2yGqOBZEwgGxPIxgSyvW4CrdruFG1Aq+1O0QasWuRoIBsTyFZuAi34T5drQIP/dLkGbPKDjAYcTMBhRMhBhBxGhBxEyGFE6OkR0uAyN/v+9HV69n0AkBJ+ICpYeyt0GGAAAAAASUVORK5CYII=" width="18" height="18" alt="Data" border="0" style="display: block; margin: 0 auto; width: 18px; height: 18px;" />
+                          </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #0F172A; line-height: 1.25;">
                             Data &amp; AI
                           </div>
@@ -681,9 +719,11 @@
 
                         <td width="2%">&nbsp;</td>
 
-                        <!-- Cat 4 -->
+                        <!-- Cat 4: Security Icon -->
                         <td width="18%" valign="top" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 6px; text-align: center;">
-                          <div style="font-size: 14px; color: #2563EB; margin-bottom: 4px;">&#128737;</div>
+                          <div style="margin-bottom: 6px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADHElEQVRoge1Zz0tUURS+kCmV/dxUEI757rWYooX9AUKrFkkYjpsinXuGgQQX5qKlu3a6aFHYpp2Llm7biKIFZZBQiG0ks3znPE2hCEqYOJPJzHt3HN+8ec8x3gcHhjfvfvc793533pzzhIjxH8LqxTYJ9EhpWuHgz3xN1DKSsH5KZSirgN4qoJwppMYPUtODRI99RtQCkqlcvQTqUEDPpcZfpYR7Azcl4AuVdu6eS306tGcWkYDO7kWX2BVAJxKLnYeV060a70ugubKiNP5WGscVOLfyoXE8f61sMjTHc/Bce2QRfM8eNwkoOCOzkVhMZvCG0mSHYQFfFtRksxb/CQB+3o1FeJdEhUimcvW7sRhr8U3u1yJBkSxjscAJRPkgsnqxreoJhKJ0B8QJqHgHgkHFZwDiQxwIKrYQxBYKBBVbCPa7hTT9KCQ4m10+LCLClTtfj7gqte++SSTgYiFJs15LiIjQrNcSrnpg0TeJApxxrUKHiAjybxlbWIfM+CZRmkZcCQyLiCCBhl1l5YhvEpV2Ol3buNw+lKsTIaN9KFfHcxUlkHY6KzxIuFGURMbuEiFDZuwul302WEtFZArwiWsX5kPdhVTuANfdxfbBxxXztWbpoqFbMChCggIadHc/WEMgUqlp1JXAzxa9ellUGVZm9RJzFydAo4GJuZPsaUBp+shtkKooF0I03Vs/qYAW3A2zqnWxrTR2G3o1ExUfLu9Td8LTxkljt6gmJNBTUxLJPruxUs5kn91oEs9zVVX8dqNX06RhsqkLmo765eMxEmjK27akySDtyh3Rkl07LgFfGSZ9J7O25YOnSQK+NuzobDXPVskklMaXhr7phpWhm+XGW2BflxpXPeM1vQld/D/I284xpWnakMSm1PhQ9i80eMb0LzTwd3yPQfw0c4oowfWB1DRW6k1LYTN4632A8c2O1DQWZa1hfHqae/u80vxXJB+eVd8aMyhqAa0ZuqY0LplW2Bgal3iMqCUker6dkEDPyonne/heUauw+FcGcN4rHOf5O7EfcDWbOygBB6SmL/kAHOBre60rhggBfwDWEQL0DhapsgAAAABJRU5ErkJggg==" width="18" height="18" alt="Security" border="0" style="display: block; margin: 0 auto; width: 18px; height: 18px;" />
+                          </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #0F172A; line-height: 1.25;">
                             Cybersecurity
                           </div>
@@ -694,9 +734,11 @@
 
                         <td width="2%">&nbsp;</td>
 
-                        <!-- Cat 5 -->
+                        <!-- Cat 5: Folder Icon -->
                         <td width="18%" valign="top" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 8px; padding: 12px 6px; text-align: center;">
-                          <div style="font-size: 14px; color: #D97706; margin-bottom: 4px;">&#128193;</div>
+                          <div style="margin-bottom: 6px;">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkUlEQVRoge2ZzU7CUBCFr6YzCjwA/ix8IX0LFTeyUeYCG99JjRsUd/6sdKFypwlLXwDZY64khILQGtoOxPmS2dHknJ5JSc4YoyhKhIExa0xBxVl8Zot9tjhINvAZ1nDfSNKpFXbYQju56KnpvZ9t7omIH1yYdSa4X0D8cAjufIq5G+jUg5OFxY9MBJXcDbjhzo9EOAvX3UapHPecf9uOoCW+Skz4NS7i7by4lfRZL9aLjrwAglauq8QTa/Dn5ymopLaCNjJ9R/jEhNXw1GxkZmDGKqU6jvCVm4XdTAzMWqX0B9q/rmYaBjyhxQP/p5apiTocZ2YgbbqNUtlZuIp+IfFxZQx4PprF7cnPtFklA4n0qYGMYU1AGNYEhGFNQBjWBIRhTUAY1gSEYU1AGNYEhGFNQBj+Dwn0xn+QpJnO9/CC82uVnwI10kPCpe9jzFJ0QnATX2wRVrPtNFMseS0cThnw1bWz+LL04mnO3cFX1/7GJS2SZw7cxq718MwKR47wYfJqIzQ9r8WvjcjxUFHMcvMNtCte5Hojr3AAAAAASUVORK5CYII=" width="18" height="18" alt="Project Management" border="0" style="display: block; margin: 0 auto; width: 18px; height: 18px;" />
+                          </div>
                           <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #0F172A; line-height: 1.25;">
                             Project Mgmt
                           </div>
