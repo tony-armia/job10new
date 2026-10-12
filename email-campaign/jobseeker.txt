@@ -31,26 +31,15 @@ UPLOAD RESUME & VIEW MATCHES:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs
 
 --------------------------------------------------------------------------------
-WHY PROFESSIONALS CHOOSE JOB10
+HOW IT WORKS
 --------------------------------------------------------------------------------
 
-01. Smart matching that makes sense
-Discover opportunities aligned with your actual skills, seniority, and
-professional direction rather than generic keyword results.
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_1#benefits
-
-02. Put your verified experience to work
-Help relevant hiring teams understand what you genuinely bring to the table
-with verified projects, compensation expectations, and domain depth.
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_2#benefits
-
-03. Direct access to verified opportunities
-Connect directly with verified hiring teams who have already evaluated your
-background, cutting time to interview without third-party headhunters.
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_3#benefits
+01. Create your profile: Upload your resume and highlight your key skills.
+02. Get matched: Our matching engine surfaces curated roles suited to you.
+03. Explore and apply: Connect directly with verified hiring teams.
 
 --------------------------------------------------------------------------------
-POPULAR OPPORTUNITIES
+EXPLORE OPPORTUNITIES
 --------------------------------------------------------------------------------
 
 * System Administrator & Infrastructure Lead — CloudScale Systems
@@ -67,22 +56,6 @@ POPULAR OPPORTUNITIES
 
 Browse 10,000+ active roles:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs
-
---------------------------------------------------------------------------------
-HOW IT WORKS
---------------------------------------------------------------------------------
-
-01. Profile setup & CV upload: Highlight competencies in under two minutes.
-02. Smart opportunity matching: Review roles curated to your actual skills.
-03. Transparent role clarity: Know salary benchmarks and culture upfront.
-04. Direct interview requests: Connect straight to decision-makers.
-
---------------------------------------------------------------------------------
-CANDIDATE TRUST & SAFETY
---------------------------------------------------------------------------------
-* Free for candidates: Zero subscription or placement fees, ever.
-* Data security first: SOC-2 & GDPR compliant. Completely confidential.
-* Verified employers: Direct hiring teams only, zero third-party brokers.
 
 --------------------------------------------------------------------------------
 YOUR NEXT CAREER MILESTONE STARTS HERE.
