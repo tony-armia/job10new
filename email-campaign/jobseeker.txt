@@ -17,7 +17,6 @@ EXPLORE OPPORTUNITIES:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs
 
 --------------------------------------------------------------------------------
-GET STARTED IN MINUTES
 Upload your resume and get an interview in the next 10 minutes.
 --------------------------------------------------------------------------------
 Our matching engine pairs your profile with relevant open roles and connects you
@@ -33,7 +32,7 @@ HOW IT WORKS:
 03. Get an interview: Connect with hiring companies in the next 10 minutes
 
 --------------------------------------------------------------------------------
-EXPLORE OPPORTUNITIES
+ROLES WORTH YOUR TIME
 --------------------------------------------------------------------------------
 
 * System Administrator & Infrastructure Lead — CloudScale Systems
