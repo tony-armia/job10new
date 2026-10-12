@@ -21,6 +21,25 @@ export function AudienceProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     try {
+      if (typeof window !== "undefined") {
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlRole = (urlParams.get("role") || urlParams.get("audience"))?.toLowerCase();
+
+        if (urlRole === "recruiter" || urlRole === "jobseeker") {
+          setAudienceState(urlRole as Audience);
+          setIsModalOpen(false);
+          try {
+            localStorage.setItem("job10_audience_role", urlRole);
+          } catch {}
+          return;
+        }
+
+        if (urlRole === "choose" || urlRole === "modal" || urlParams.get("modal") === "true") {
+          setIsModalOpen(true);
+          return;
+        }
+      }
+
       const stored = localStorage.getItem("job10_audience_role") as Audience | null;
       if (stored && (stored === "recruiter" || stored === "jobseeker")) {
         setAudienceState(stored);
