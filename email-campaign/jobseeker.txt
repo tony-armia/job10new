@@ -2,7 +2,7 @@
 JOB10 — CAREER OPPORTUNITY CAMPAIGN
 ================================================================================
 
-Subject: Your next opportunity could be closer than you think
+Subject: Your next opportunity starts with a better match
 Preheader: Discover jobs matched to your skills and experience with Job10.
 Audience: Jobseekers & Candidates
 
@@ -10,33 +10,27 @@ Audience: Jobseekers & Candidates
 YOUR NEXT OPPORTUNITY STARTS WITH A BETTER MATCH.
 --------------------------------------------------------------------------------
 
-Job10 connects your skills, compensation targets, and domain experience with
-verified openings worthy of your time. Spend less time searching and more time
-moving your career forward.
+Job10 connects your skills, experience and ambitions with verified opportunities
+worthy of your time. Spend less time searching and more time moving your career forward.
 
-FIND MY NEXT JOB:
+EXPLORE OPPORTUNITIES:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs
 
 --------------------------------------------------------------------------------
-HAVE AN UPDATED CV? LET THE RIGHT ROLES FIND YOU.
+GET STARTED IN MINUTES
+Upload your resume and get an interview in the next 10 minutes.
 --------------------------------------------------------------------------------
-Upload your resume once. Our matching engine surfaces relevant openings
-aligned with your seniority, tech stack, and compensation expectations.
+Our matching engine pairs your profile with relevant open roles and connects you
+directly with hiring companies.
 
-* Automatic skill and seniority extraction across your full background
-* Curated role suggestions with zero unsolicited recruiter spam
-* Complete confidentiality — your profile is never shared without your consent
-
-UPLOAD RESUME & VIEW MATCHES:
+UPLOAD RESUME:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs
+Accepted formats: PDF, DOC or DOCX (Max 10MB)
 
---------------------------------------------------------------------------------
-HOW IT WORKS
---------------------------------------------------------------------------------
-
-01. Create your profile: Upload your resume and highlight your key skills.
-02. Get matched: Our matching engine surfaces curated roles suited to you.
-03. Explore and apply: Connect directly with verified hiring teams.
+HOW IT WORKS:
+01. Upload resume: PDF, DOC or DOCX (Max 10MB)
+02. Get matched: Our AI finds the most relevant opportunities
+03. Get an interview: Connect with hiring companies in the next 10 minutes
 
 --------------------------------------------------------------------------------
 EXPLORE OPPORTUNITIES
