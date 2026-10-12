@@ -10,82 +10,82 @@ Audience: Jobseekers & Candidates
 YOUR NEXT OPPORTUNITY STARTS WITH A BETTER MATCH.
 --------------------------------------------------------------------------------
 
-Meet Job10 — an AI-powered platform designed to connect your skills and
-experience with relevant career opportunities. Spend less time searching
-and more time exploring what comes next.
+Job10 connects your skills, compensation targets, and domain experience with
+verified openings worthy of your time. Spend less time searching and more time
+moving your career forward.
 
 FIND MY NEXT JOB:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs
 
 --------------------------------------------------------------------------------
-UPLOAD YOUR RESUME. LET OPPORTUNITIES FIND YOU.
+HAVE AN UPDATED CV? LET THE RIGHT ROLES FIND YOU.
 --------------------------------------------------------------------------------
-Drop your CV and our matching engine instantly surfaces the roles that
-actually match your experience, skills, and ambitions.
+Upload your resume once. Our matching engine surfaces relevant openings
+aligned with your seniority, tech stack, and compensation expectations.
 
-[+] Instant skill extraction: Automatically identifies seniority and tech stack.
-[+] Curated matches, not noise: Only see roles suited to your actual background.
-[+] 100% private: Your contact details are never shared without your consent.
+* Automatic skill and seniority extraction across your full background
+* Curated role suggestions with zero unsolicited recruiter spam
+* Complete confidentiality — your profile is never shared without your consent
 
-UPLOAD RESUME & MATCH IN 10 MINUTES:
+UPLOAD RESUME & VIEW MATCHES:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs
 
 --------------------------------------------------------------------------------
 WHY PROFESSIONALS CHOOSE JOB10
 --------------------------------------------------------------------------------
 
-[01] MATCHES THAT MAKE SENSE
-Discover opportunities aligned with your skills, seniority, and professional
-goals rather than keyword-stuffed search results.
-Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_1#benefits
+01 — Smart Matching
+Discover opportunities aligned with your actual skills, seniority, and
+professional direction rather than generic keyword results.
+https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_1#benefits
 
-[02] PUT YOUR EXPERIENCE TO WORK
-Help relevant employers understand what you genuinely bring to the role with
-verified projects, compensation targets, and domain depth.
-Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_2#benefits
+02 — Verified Depth
+Help relevant hiring teams understand what you genuinely bring to the table
+with verified projects, compensation expectations, and domain depth.
+https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_2#benefits
 
-[03] A SIMPLER WAY TO DISCOVER OPPORTUNITIES
+03 — Direct Access
 Connect directly with verified hiring teams who have already evaluated your
 background, cutting time to interview without third-party headhunters.
-Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_3#benefits
+https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_3#benefits
 
 --------------------------------------------------------------------------------
 POPULAR OPPORTUNITIES
 --------------------------------------------------------------------------------
 
-* System Administrator & Infrastructure Lead (CloudScale Systems)
-  Remote • Full Time • $120,000 – $155,000 / yr
-  Status: Actively Hiring
-  Tech: Kubernetes, AWS, Linux, Architecture
-  Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs
+* System Administrator & Infrastructure Lead — CloudScale Systems
+  Remote • Full-time • $120,000 – $155,000 / yr
+  Status: Actively hiring
+  Tech: Kubernetes, AWS, Linux
+  https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs
 
-* Senior DevOps & Cloud Operations Engineer (Nexus Networks)
-  San Francisco / Hybrid • Full Time • $145,000 – $180,000 / yr
-  Status: Featured Role
+* Senior DevOps & Cloud Operations Engineer — Nexus Networks
+  San Francisco / Hybrid • Full-time • $145,000 – $180,000 / yr
+  Status: Featured role
   Tech: Terraform, Cloud Ops, CI/CD
-  Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs
+  https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs
 
 Browse 10,000+ active roles:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs
 
 --------------------------------------------------------------------------------
-FROM YOUR PROFILE TO MOVING FORWARD IN 4 STEPS
+HOW IT WORKS
 --------------------------------------------------------------------------------
 
-STEP 01 — PROFILE SETUP: Upload CV or build verified profile in under 2 min.
-STEP 02 — SMART MATCHING: Review curated roles matched to your actual skills.
-STEP 03 — ROLE CLARITY: Transparent salary benchmarks, tech stack, and culture.
-STEP 04 — DIRECT INTERVIEWS: Connect directly with hiring decision-makers.
+01 — Profile setup: Upload CV or build profile in under two minutes.
+02 — Smart matching: Review roles curated to your actual skills with zero spam.
+03 — Role clarity: Know salary benchmarks, tech stack, and team culture upfront.
+04 — Move forward: Connect straight to decision-makers and schedule rounds.
 
 --------------------------------------------------------------------------------
 CANDIDATE TRUST & SAFETY
 --------------------------------------------------------------------------------
-* 100% Free Forever: Zero subscription or placement fees for jobseekers.
-* SOC-2 & GDPR Encrypted: Complete privacy and confidentiality.
-* Verified Direct Employers: No third-party headhunters or unsolicited spam.
+* Free for candidates: Zero subscription or placement fees, ever.
+* Data security first: SOC-2 & GDPR compliant. Completely confidential.
+* Verified employers: Direct hiring teams only, zero third-party brokers.
 
 --------------------------------------------------------------------------------
-THE RIGHT OPPORTUNITY COULD BE YOUR NEXT MOVE.
+YOUR NEXT CAREER MILESTONE STARTS HERE.
 --------------------------------------------------------------------------------
 
 EXPLORE JOBS NOW:

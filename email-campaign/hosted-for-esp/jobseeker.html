@@ -28,8 +28,14 @@
       @font-face {
         font-family: 'General Sans';
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         src: url('https://cdn.fontshare.com/wf/N4Z734M35X453VBRQ3N36X7W4EGFJ34E/HXZV3KEX5E6523Y423JIB5Z37V4R5A7G/5K7V4W3K5E6523Y423JIB5Z37V4R5A7G.woff2') format('woff2');
+      }
+      @font-face {
+        font-family: 'General Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: url('https://cdn.fontshare.com/wf/O4Z634M35X453VBRQ3N36X7W4EGFJ34E/JXZV3KEX5E6523Y423JIB5Z37V4R5A7G/6K7V4W3K5E6523Y423JIB5Z37V4R5A7G.woff2') format('woff2');
       }
       @font-face {
         font-family: 'General Sans';
@@ -55,7 +61,6 @@
       line-height: 100%;
       outline: none;
       text-decoration: none;
-      display: block;
     }
     body {
       margin: 0 !important;
@@ -64,89 +69,76 @@
       background-color: #F8FAFC;
     }
 
-    /* Interactive enhancements */
-    a.primary-btn:hover {
-      background-color: #1324C7 !important;
-      box-shadow: 0 4px 14px rgba(25, 44, 231, 0.35) !important;
-    }
-    a.link-hover:hover {
-      text-decoration: underline !important;
-      color: #192CE7 !important;
-    }
-
-    /* Responsive Mobile Rules */
+    /* Responsive */
     @media only screen and (max-width: 620px) {
       .email-wrapper {
         width: 100% !important;
-        max-width: 100% !important;
         border-radius: 0 !important;
+        border: none !important;
       }
       .mobile-padding {
         padding-left: 20px !important;
         padding-right: 20px !important;
       }
       .mobile-h1 {
-        font-size: 28px !important;
+        font-size: 26px !important;
         line-height: 1.22 !important;
       }
       .mobile-h2 {
-        font-size: 21px !important;
+        font-size: 19px !important;
         line-height: 1.25 !important;
       }
       .mobile-body {
         font-size: 15px !important;
-        line-height: 1.6 !important;
+        line-height: 1.55 !important;
+      }
+      .mobile-full-btn {
+        width: 100% !important;
+        display: block !important;
+        box-sizing: border-box !important;
+        text-align: center !important;
       }
       .mobile-btn-container {
         width: 100% !important;
       }
-      .mobile-full-btn {
-        width: 100% !important;
-        text-align: center !important;
-        display: block !important;
-        box-sizing: border-box !important;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-      }
       .mobile-stack {
         display: block !important;
         width: 100% !important;
-        max-width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        box-sizing: border-box !important;
       }
       .mobile-stack-gap {
         display: block !important;
-        height: 12px !important;
+        height: 10px !important;
         width: 100% !important;
       }
       .mobile-hide {
         display: none !important;
-        visibility: hidden !important;
       }
     }
-  </style>
 
-  <!--[if mso]>
-  <style type="text/css">
-    body, table, td, p, a, span, h1, h2, h3, h4 {
-      font-family: Arial, Helvetica, sans-serif !important;
+    /* Hover */
+    .primary-btn:hover {
+      background-color: #1422B8 !important;
+    }
+    .link-hover:hover {
+      color: #192CE7 !important;
+      text-decoration: underline !important;
     }
   </style>
-  <![endif]-->
 </head>
+<body style="margin: 0; padding: 0; background-color: #F8FAFC; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #0F172A;">
 
-<body style="margin: 0; padding: 0; background-color: #F8FAFC; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
-  <!-- PREHEADER TRICK: Hidden preview snippet -->
-  <div style="display: none; font-size: 1px; color: #F8FAFC; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all;">
+  <!-- Preheader -->
+  <div style="display: none; font-size: 1px; color: #F8FAFC; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
     Discover jobs matched to your skills and experience with Job10.
-    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    &#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;&#847;
   </div>
 
-  <!-- OUTER CANVAS WRAPPER TABLE -->
-  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC; table-layout: fixed;">
+  <!-- Outer Canvas -->
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC;">
     <tr>
-      <td align="center" style="padding: 24px 10px 48px 10px;">
+      <td align="center" style="padding: 28px 12px 48px 12px;">
+
         <!--[if (gte mso 9)|(IE)]>
         <table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width: 600px;">
         <tr>
@@ -154,20 +146,20 @@
         <![endif]-->
 
         <!-- MAIN 600PX EMAIL CONTAINER -->
-        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="email-wrapper" style="max-width: 600px; width: 100%; background-color: #FFFFFF; border-radius: 16px; overflow: hidden; border: 1px solid #EEF2F6; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);">
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="email-wrapper" style="max-width: 600px; width: 100%; background-color: #FFFFFF; border-radius: 16px; overflow: hidden; border: 1px solid #E2E8F0; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.03);">
 
           <!-- 01 — HEADER -->
           <tr>
-            <td align="left" style="padding: 28px 36px 20px 36px; border-bottom: 1px solid #F1F5F9;" class="mobile-padding">
+            <td align="left" style="padding: 26px 36px 20px 36px; border-bottom: 1px solid #F1F5F9;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td align="left" valign="middle">
                     <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_logo" target="_blank" style="text-decoration: none; display: inline-block;">
-                      <img src="https://job10.ai/images/email/job10-logo.png" alt="Job10" width="124" height="44" border="0" style="display: block; width: 124px; max-width: 124px; height: auto; font-family: 'General Sans', Arial, sans-serif; font-size: 22px; font-weight: 700; color: #192CE7;" />
+                      <img src="https://job10.ai/images/email/job10-logo.png" alt="Job10" width="118" height="42" border="0" style="display: block; width: 118px; max-width: 118px; height: auto;" />
                     </a>
                   </td>
                   <td align="right" valign="middle" class="mobile-hide">
-                    <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_header_link" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #64748B; text-decoration: none; letter-spacing: 0.2px;">
+                    <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_header_link" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #64748B; text-decoration: none;">
                       job10.ai &rarr;
                     </a>
                   </td>
@@ -178,51 +170,45 @@
 
           <!-- 02 — HERO CONTENT -->
           <tr>
-            <td align="left" style="padding: 36px 36px 26px 36px;" class="mobile-padding">
+            <td align="left" style="padding: 34px 36px 24px 36px;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                <!-- Eyebrow Pill -->
+                <!-- Eyebrow (Clean, understated typography — no pill container) -->
                 <tr>
-                  <td align="left" style="padding-bottom: 14px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                      <tr>
-                        <td bgcolor="#EEF2FF" style="background-color: #EEF2FF; border-radius: 9999px; padding: 4px 14px; border: 1px solid #E0E7FF;">
-                          <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 700; color: #192CE7; text-transform: uppercase; letter-spacing: 0.6px; display: block;">
-                            For Jobseekers &bull; Career Matches
-                          </span>
-                        </td>
-                      </tr>
-                    </table>
+                  <td align="left" style="padding-bottom: 10px;">
+                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #192CE7; letter-spacing: 0.2px; display: inline-block;">
+                      Career discovery for professionals
+                    </span>
                   </td>
                 </tr>
 
-                <!-- Expressive Editorial Headline -->
+                <!-- Expressive Headline -->
                 <tr>
-                  <td align="left" style="padding-bottom: 16px;">
-                    <h1 class="mobile-h1" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 34px; line-height: 1.18; font-weight: 700; color: #0F172A; letter-spacing: -0.6px;">
+                  <td align="left" style="padding-bottom: 14px;">
+                    <h1 class="mobile-h1" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 32px; line-height: 1.2; font-weight: 600; color: #0F172A; letter-spacing: -0.5px;">
                       Your next opportunity starts with a better match.
                     </h1>
                   </td>
                 </tr>
 
-                <!-- Supporting Description -->
+                <!-- Supporting Description (Human-centered, outcome-focused) -->
                 <tr>
-                  <td align="left" style="padding-bottom: 28px;">
-                    <p class="mobile-body" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; line-height: 1.62; font-weight: 400; color: #475569;">
-                      Meet Job10 &mdash; an AI-powered platform designed to connect your skills and experience with relevant career opportunities. Spend less time searching and more time exploring what comes next.
+                  <td align="left" style="padding-bottom: 24px;">
+                    <p class="mobile-body" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 15px; line-height: 1.6; font-weight: 400; color: #475569;">
+                      Job10 connects your skills, compensation targets, and domain experience with verified openings worthy of your time. Spend less time searching and more time moving your career forward.
                     </p>
                   </td>
                 </tr>
 
-                <!-- Primary Bulletproof Button -->
+                <!-- Primary CTA Button -->
                 <tr>
-                  <td align="left" style="padding-bottom: 8px;">
+                  <td align="left">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-btn-container">
                       <tr>
-                        <td align="center" bgcolor="#192CE7" style="border-radius: 9999px; background-color: #192CE7; box-shadow: 0 4px 14px rgba(25, 44, 231, 0.28);">
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 15px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 15px 34px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
-                            <!--[if mso]><i style="letter-spacing: 34px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i><![endif]-->
-                            <span style="mso-text-raise: 15pt;">Find My Next Job &rarr;</span>
-                            <!--[if mso]><i style="letter-spacing: 34px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                        <td align="center" bgcolor="#192CE7" style="border-radius: 9999px; background-color: #192CE7; box-shadow: 0 4px 14px rgba(25, 44, 231, 0.2);">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 14px 30px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
+                            <!--[if mso]><i style="letter-spacing: 30px; mso-font-width: -100%; mso-text-raise: 28pt;">&nbsp;</i><![endif]-->
+                            <span style="mso-text-raise: 14pt;">Explore Opportunities &rarr;</span>
+                            <!--[if mso]><i style="letter-spacing: 30px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
                           </a>
                         </td>
                       </tr>
@@ -233,14 +219,14 @@
             </td>
           </tr>
 
-          <!-- 03 — HERO VISUAL (Approved Jobseeker Showcase Photography) -->
+          <!-- 03 — HERO VISUAL -->
           <tr>
-            <td align="center" style="padding: 0 36px 36px 36px;" class="mobile-padding">
+            <td align="center" style="padding: 0 36px 32px 36px;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
-                  <td align="center" style="border-radius: 14px; overflow: hidden; background-color: #F1F5F9; border: 1px solid #E2E8F0;">
+                  <td align="center" style="border-radius: 12px; overflow: hidden; background-color: #F8FAFC; border: 1px solid #E2E8F0;">
                     <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero_image#jobs" target="_blank" style="text-decoration: none; display: block;">
-                      <img src="https://job10.ai/images/email/hero-jobseeker.jpg" alt="Job10 candidate discovery and AI matching" width="528" height="297" border="0" style="display: block; width: 100%; max-width: 528px; height: auto; border-radius: 14px;" />
+                      <img src="https://job10.ai/images/email/hero-jobseeker.jpg" alt="Job10 candidate discovery and intelligent matching" width="528" height="297" border="0" style="display: block; width: 100%; max-width: 528px; height: auto;" />
                     </a>
                   </td>
                 </tr>
@@ -249,68 +235,61 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- SECTION 1: INSTANT RESUME UPLOAD / SKILL MATCH CARD             -->
-          <!-- Component adaptation from src/components/sections/ResumeUpload  -->
+          <!-- SECTION 1: RESUME MATCHING CARD (Clean invitation card)         -->
           <!-- =============================================================== -->
           <tr>
-            <td align="center" style="padding: 0 36px 36px 36px;" class="mobile-padding">
-              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 2px dashed #C7D2FE; border-radius: 16px; text-align: left;">
+            <td align="center" style="padding: 0 36px 32px 36px;" class="mobile-padding">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 14px; text-align: left;">
                 <tr>
-                  <td style="padding: 30px 28px;" class="mobile-padding">
+                  <td style="padding: 28px 26px;" class="mobile-padding">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-                      <!-- Upload Badge -->
+                      <!-- Clean Eyebrow -->
                       <tr>
-                        <td align="left" style="padding-bottom: 12px;">
-                          <table role="presentation" border="0" cellpadding="0" cellspacing="0">
-                            <tr>
-                              <td bgcolor="#EEF2FF" style="background-color: #EEF2FF; border-radius: 8px; padding: 6px 12px; border: 1px solid #C7D2FE;">
-                                <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 700; color: #192CE7; text-transform: uppercase; letter-spacing: 0.6px;">
-                                  &#9889; AI Resume Matcher
-                                </span>
-                              </td>
-                            </tr>
-                          </table>
+                        <td align="left" style="padding-bottom: 8px;">
+                          <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; letter-spacing: 0.3px;">
+                            Resume Matching
+                          </span>
                         </td>
                       </tr>
 
                       <!-- Section Title -->
                       <tr>
-                        <td align="left" style="padding-bottom: 8px;">
-                          <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 700; color: #0F172A; line-height: 1.25;">
-                            Upload your resume. <span style="color: #192CE7;">Let opportunities find you.</span>
+                        <td align="left" style="padding-bottom: 6px;">
+                          <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 20px; font-weight: 600; color: #0F172A; line-height: 1.3;">
+                            Have an updated CV? <span style="color: #192CE7;">Let the right roles find you.</span>
                           </h2>
                         </td>
                       </tr>
 
                       <!-- Subtitle -->
                       <tr>
-                        <td align="left" style="padding-bottom: 20px;">
-                          <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; line-height: 1.55; color: #475569;">
-                            Drop your CV and our matching engine instantly surfaces the roles that genuinely match your experience, skills, and ambitions.
+                        <td align="left" style="padding-bottom: 18px;">
+                          <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #64748B;">
+                            Upload your resume once. Our matching engine surfaces relevant openings aligned with your seniority, tech stack, and compensation expectations.
                           </p>
                         </td>
                       </tr>
 
-                      <!-- 3 Feature Highlights -->
+                      <!-- 3 Refined Value Points (Clean, natural human phrasing, no emojis, no loud ticks) -->
                       <tr>
                         <td style="padding-bottom: 20px;">
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                              <td width="20" valign="top" style="font-size: 14px; color: #10B981; line-height: 1.5; font-weight: bold; width: 20px;">&check;</td>
-                              <td valign="top" style="padding-bottom: 8px; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #334155; line-height: 1.5;">
-                                <strong style="color: #0F172A;">Instant skill extraction:</strong> Automatically identifies seniority, tech stack, and domain depth.
+                              <td width="14" valign="top" style="font-size: 13px; color: #192CE7; line-height: 1.55; width: 14px;">&bull;</td>
+                              <td valign="top" style="padding-bottom: 6px; padding-left: 6px; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #475569; line-height: 1.55;">
+                                Automatic skill and seniority extraction across your full background
                               </td>
                             </tr>
                             <tr>
-                              <td width="20" valign="top" style="font-size: 14px; color: #10B981; line-height: 1.5; font-weight: bold; width: 20px;">&check;</td>
-                              <td valign="top" style="padding-bottom: 8px; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #334155; line-height: 1.5;">
-                                <strong style="color: #0F172A;">Curated matches, not noise:</strong> Only see opportunities suited to your actual background.
+                              <td width="14" valign="top" style="font-size: 13px; color: #192CE7; line-height: 1.55; width: 14px;">&bull;</td>
+                              <td valign="top" style="padding-bottom: 6px; padding-left: 6px; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #475569; line-height: 1.55;">
+                                Curated role suggestions with zero unsolicited recruiter spam
                               </td>
                             </tr>
                             <tr>
-                              <td width="20" valign="top" style="font-size: 14px; color: #10B981; line-height: 1.5; font-weight: bold; width: 20px;">&check;</td>
-                              <td valign="top" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #334155; line-height: 1.5;">
-                                <strong style="color: #0F172A;">100% private by default:</strong> Your details are never revealed without your explicit approval.
+                              <td width="14" valign="top" style="font-size: 13px; color: #192CE7; line-height: 1.55; width: 14px;">&bull;</td>
+                              <td valign="top" style="padding-left: 6px; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #475569; line-height: 1.55;">
+                                Complete confidentiality &mdash; your profile is never shared without your consent
                               </td>
                             </tr>
                           </table>
@@ -323,10 +302,10 @@
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-btn-container">
                             <tr>
                               <td align="center" bgcolor="#192CE7" style="border-radius: 9999px; background-color: #192CE7;">
-                                <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 13px 28px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
-                                  <!--[if mso]><i style="letter-spacing: 28px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
-                                  <span style="mso-text-raise: 13pt;">Drop Resume &amp; Match in 10 Min &rarr;</span>
-                                  <!--[if mso]><i style="letter-spacing: 28px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                                <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 12px 26px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
+                                  <!--[if mso]><i style="letter-spacing: 26px; mso-font-width: -100%; mso-text-raise: 24pt;">&nbsp;</i><![endif]-->
+                                  <span style="mso-text-raise: 12pt;">Upload Resume &amp; View Matches &rarr;</span>
+                                  <!--[if mso]><i style="letter-spacing: 26px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
                                 </a>
                               </td>
                             </tr>
@@ -342,51 +321,50 @@
           </tr>
 
           <!-- ========================================================================= -->
-          <!-- SECTION 2: WHY PROFESSIONALS CHOOSE JOB10 (WITH LANDING PAGE BENEFIT PHOTOS) -->
-          <!-- Component adaptation from src/components/sections/JobseekerBenefits.tsx    -->
+          <!-- SECTION 2: WHY PROFESSIONALS CHOOSE JOB10                                 -->
           <!-- ========================================================================= -->
           <tr>
-            <td align="left" style="padding: 12px 36px 36px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
+            <td align="left" style="padding: 10px 36px 32px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td align="left" style="padding-top: 24px; padding-bottom: 6px;">
-                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.8px; display: block;">
+                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #64748B; letter-spacing: 0.3px; display: block;">
                       Why professionals choose Job10
                     </span>
                   </td>
                 </tr>
                 <tr>
-                  <td align="left" style="padding-bottom: 22px;">
-                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 700; color: #0F172A; line-height: 1.25;">
+                  <td align="left" style="padding-bottom: 20px;">
+                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 600; color: #0F172A; line-height: 1.25;">
                       Less searching. <span style="color: #192CE7;">More moving forward.</span>
                     </h2>
                     <p style="margin: 4px 0 0 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; color: #64748B; line-height: 1.5;">
-                      Designed to cut through the noise so you can focus on opportunities worthy of your time and expertise.
+                      Designed to cut through keyword clutter so you can focus on opportunities worthy of your time.
                     </p>
                   </td>
                 </tr>
 
                 <!-- Benefit Card 1: Matches that make sense -->
                 <tr>
-                  <td align="left" style="padding-bottom: 20px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E0E7FF; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(25, 44, 231, 0.04);">
+                  <td align="left" style="padding-bottom: 18px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden;">
                       <tr>
                         <td align="center" style="background-color: #F8FAFC; border-bottom: 1px solid #EEF2F6;">
                           <img src="https://job10.ai/images/email/benefit-1.jpg" alt="Matches that make sense" width="528" height="260" border="0" style="display: block; width: 100%; max-width: 528px; height: auto;" />
                         </td>
                       </tr>
                       <tr>
-                        <td style="padding: 20px 22px;" align="left">
-                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #192CE7; background-color: #EEF2FF; border: 1px solid #E0E7FF; border-radius: 9999px; padding: 3px 10px; display: inline-block; margin-bottom: 8px;">
-                            01 &bull; SMART MATCHING
+                        <td style="padding: 18px 20px;" align="left">
+                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; letter-spacing: 0.4px; display: block; margin-bottom: 4px;">
+                            01 &mdash; Smart Matching
                           </span>
-                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 17px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Matches that make sense
                           </h3>
-                          <p style="margin: 0 0 12px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #64748B;">
-                            Discover opportunities aligned with your skills, seniority, and professional goals rather than keyword-stuffed search results.
+                          <p style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; line-height: 1.55; color: #64748B;">
+                            Discover opportunities aligned with your actual skills, seniority, and professional direction rather than generic keyword results.
                           </p>
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_1#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7; text-decoration: none;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_1#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #192CE7; text-decoration: none;">
                             Direct high-fit matches &rarr;
                           </a>
                         </td>
@@ -397,25 +375,25 @@
 
                 <!-- Benefit Card 2: Put your experience to work -->
                 <tr>
-                  <td align="left" style="padding-bottom: 20px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #EDE9FE; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(124, 58, 237, 0.04);">
+                  <td align="left" style="padding-bottom: 18px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden;">
                       <tr>
                         <td align="center" style="background-color: #F8FAFC; border-bottom: 1px solid #EEF2F6;">
                           <img src="https://job10.ai/images/email/benefit-2.jpg" alt="Put your experience to work" width="528" height="260" border="0" style="display: block; width: 100%; max-width: 528px; height: auto;" />
                         </td>
                       </tr>
                       <tr>
-                        <td style="padding: 20px 22px;" align="left">
-                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #7C3AED; background-color: #F5F3FF; border: 1px solid #EDE9FE; border-radius: 9999px; padding: 3px 10px; display: inline-block; margin-bottom: 8px;">
-                            02 &bull; PROVEN DEPTH
+                        <td style="padding: 18px 20px;" align="left">
+                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #7C3AED; letter-spacing: 0.4px; display: block; margin-bottom: 4px;">
+                            02 &mdash; Verified Depth
                           </span>
-                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 17px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Put your experience to work
                           </h3>
-                          <p style="margin: 0 0 12px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #64748B;">
-                            Help relevant employers understand what you genuinely bring to the role with verified projects, compensation targets, and domain depth.
+                          <p style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; line-height: 1.55; color: #64748B;">
+                            Help relevant hiring teams understand what you genuinely bring to the table with verified projects, compensation expectations, and domain depth.
                           </p>
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_2#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #7C3AED; text-decoration: none;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_2#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #7C3AED; text-decoration: none;">
                             Direct founder visibility &rarr;
                           </a>
                         </td>
@@ -427,24 +405,24 @@
                 <!-- Benefit Card 3: A simpler way to discover opportunities -->
                 <tr>
                   <td align="left" style="padding-bottom: 8px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #D1FAE5; border-radius: 14px; overflow: hidden; box-shadow: 0 2px 8px rgba(5, 150, 105, 0.04);">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; overflow: hidden;">
                       <tr>
                         <td align="center" style="background-color: #F8FAFC; border-bottom: 1px solid #EEF2F6;">
                           <img src="https://job10.ai/images/email/benefit-3.jpg" alt="A simpler way to discover opportunities" width="528" height="260" border="0" style="display: block; width: 100%; max-width: 528px; height: auto;" />
                         </td>
                       </tr>
                       <tr>
-                        <td style="padding: 20px 22px;" align="left">
-                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #059669; background-color: #ECFDF5; border: 1px solid #D1FAE5; border-radius: 9999px; padding: 3px 10px; display: inline-block; margin-bottom: 8px;">
-                            03 &bull; DIRECT OPPORTUNITY
+                        <td style="padding: 18px 20px;" align="left">
+                          <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #059669; letter-spacing: 0.4px; display: block; margin-bottom: 4px;">
+                            03 &mdash; Direct Access
                           </span>
-                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 17px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h3 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             A simpler way to discover opportunities
                           </h3>
-                          <p style="margin: 0 0 12px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #64748B;">
+                          <p style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; line-height: 1.55; color: #64748B;">
                             Connect directly with verified hiring teams who have already evaluated your background, cutting time to interview without third-party headhunters.
                           </p>
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_3#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #059669; text-decoration: none;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_benefit_3#benefits" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #059669; text-decoration: none;">
                             Direct verified openings &rarr;
                           </a>
                         </td>
@@ -459,62 +437,59 @@
 
           <!-- =============================================================== -->
           <!-- SECTION 3: POPULAR OPPORTUNITIES                                -->
-          <!-- Component adaptation from src/components/sections/PopularJobs   -->
           <!-- =============================================================== -->
           <tr>
-            <td align="left" style="padding: 0 36px 36px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
+            <td align="left" style="padding: 0 36px 32px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
-                  <td align="left" style="padding-top: 28px; padding-bottom: 6px;">
-                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.8px; display: block;">
+                  <td align="left" style="padding-top: 26px; padding-bottom: 6px;">
+                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #64748B; letter-spacing: 0.3px; display: block;">
                       Popular Opportunities
                     </span>
                   </td>
                 </tr>
                 <tr>
-                  <td align="left" style="padding-bottom: 20px;">
-                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 700; color: #0F172A; line-height: 1.25;">
+                  <td align="left" style="padding-bottom: 18px;">
+                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 600; color: #0F172A; line-height: 1.25;">
                       Discover roles worth your time.
                     </h2>
                     <p style="margin: 4px 0 0 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; color: #64748B;">
-                      Explore hand-picked opportunities from top companies, with transparent details upfront:
+                      Sample active roles with transparent salary benchmarks and details upfront:
                     </p>
                   </td>
                 </tr>
 
-                <!-- Sample Job Card 1 -->
+                <!-- Sample Job Card 1 (Refined, no loud pills, clean typography) -->
                 <tr>
-                  <td align="left" style="padding-bottom: 14px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 18px 20px;">
+                  <td align="left" style="padding-bottom: 12px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 16px 18px;">
                       <tr>
                         <td>
                           <!-- Top Meta Row -->
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                              <td align="left" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #64748B;">
-                                CloudScale Systems &bull; <span style="color: #059669; font-weight: 700;">Remote &bull; Full Time</span>
+                              <td align="left" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; color: #64748B;">
+                                CloudScale Systems &bull; Remote &bull; Full-time
                               </td>
-                              <td align="right">
-                                <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 700; background-color: #ECFDF5; color: #059669; border: 1px solid #A7F3D0; border-radius: 9999px; padding: 2px 10px; display: inline-block;">
-                                  Actively Hiring
-                                </span>
+                              <td align="right" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 500; color: #059669;">
+                                &bull; Actively hiring
                               </td>
                             </tr>
                           </table>
 
                           <!-- Job Title -->
-                          <h3 style="margin: 8px 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 17px; font-weight: 700; color: #0F172A;">
+                          <h3 style="margin: 6px 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #0F172A;">
                             System Administrator &amp; Infrastructure Lead
                           </h3>
 
-                          <!-- Compensation & Details -->
-                          <p style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7;">
-                            $120,000 &ndash; $155,000 / yr &nbsp;&bull;&nbsp; <span style="color: #64748B; font-weight: 400;">Kubernetes, AWS, Linux</span>
+                          <!-- Details -->
+                          <p style="margin: 0 0 8px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #334155;">
+                            $120,000 &ndash; $155,000 / yr &nbsp;&bull;&nbsp; <span style="color: #64748B;">Kubernetes, AWS, Linux</span>
                           </p>
 
                           <!-- Action Link -->
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7; text-decoration: none;">
-                            View Opportunity &rarr;
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12.5px; font-weight: 500; color: #192CE7; text-decoration: none;">
+                            View role details &rarr;
                           </a>
                         </td>
                       </tr>
@@ -524,37 +499,35 @@
 
                 <!-- Sample Job Card 2 -->
                 <tr>
-                  <td align="left" style="padding-bottom: 18px;">
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 18px 20px;">
+                  <td align="left" style="padding-bottom: 16px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF" style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 16px 18px;">
                       <tr>
                         <td>
                           <!-- Top Meta Row -->
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
-                              <td align="left" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #64748B;">
-                                Nexus Networks &bull; <span style="color: #2563EB; font-weight: 700;">San Francisco / Hybrid</span>
+                              <td align="left" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; color: #64748B;">
+                                Nexus Networks &bull; San Francisco / Hybrid &bull; Full-time
                               </td>
-                              <td align="right">
-                                <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 700; background-color: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; border-radius: 9999px; padding: 2px 10px; display: inline-block;">
-                                  Featured Role
-                                </span>
+                              <td align="right" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; font-weight: 500; color: #2563EB;">
+                                &bull; Featured role
                               </td>
                             </tr>
                           </table>
 
                           <!-- Job Title -->
-                          <h3 style="margin: 8px 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 17px; font-weight: 700; color: #0F172A;">
+                          <h3 style="margin: 6px 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 16px; font-weight: 600; color: #0F172A;">
                             Senior DevOps &amp; Cloud Operations Engineer
                           </h3>
 
-                          <!-- Compensation & Details -->
-                          <p style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7;">
-                            $145,000 &ndash; $180,000 / yr &nbsp;&bull;&nbsp; <span style="color: #64748B; font-weight: 400;">Terraform, Cloud Ops, CI/CD</span>
+                          <!-- Details -->
+                          <p style="margin: 0 0 8px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; color: #334155;">
+                            $145,000 &ndash; $180,000 / yr &nbsp;&bull;&nbsp; <span style="color: #64748B;">Terraform, Cloud Ops, CI/CD</span>
                           </p>
 
                           <!-- Action Link -->
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7; text-decoration: none;">
-                            View Opportunity &rarr;
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs" target="_blank" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12.5px; font-weight: 500; color: #192CE7; text-decoration: none;">
+                            View role details &rarr;
                           </a>
                         </td>
                       </tr>
@@ -565,7 +538,7 @@
                 <!-- Browse All Roles Link -->
                 <tr>
                   <td align="center">
-                    <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 600; color: #192CE7; text-decoration: none;">
+                    <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #192CE7; text-decoration: none;">
                       Explore 10,000+ verified active roles on Job10 &rarr;
                     </a>
                   </td>
@@ -576,22 +549,21 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- SECTION 4: 4-STEP CANDIDATE JOURNEY                             -->
-          <!-- Component adaptation from JobseekerJourney.tsx                  -->
+          <!-- SECTION 4: 4-STEP CANDIDATE JOURNEY (Unified, elegant palette)  -->
           <!-- =============================================================== -->
           <tr>
-            <td align="left" style="padding: 0 36px 36px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
+            <td align="left" style="padding: 0 36px 32px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
-                  <td align="left" style="padding-top: 28px; padding-bottom: 6px;">
-                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: 0.8px; display: block;">
-                      How It Works
+                  <td align="left" style="padding-top: 26px; padding-bottom: 6px;">
+                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 600; color: #64748B; letter-spacing: 0.3px; display: block;">
+                      How it works
                     </span>
                   </td>
                 </tr>
                 <tr>
-                  <td align="left" style="padding-bottom: 20px;">
-                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 700; color: #0F172A; line-height: 1.25;">
+                  <td align="left" style="padding-bottom: 18px;">
+                    <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 600; color: #0F172A; line-height: 1.25;">
                       From your profile to <span style="color: #192CE7;">moving forward.</span>
                     </h2>
                   </td>
@@ -599,19 +571,19 @@
 
                 <!-- Step 1 & 2 Row -->
                 <tr>
-                  <td style="padding-bottom: 12px;">
+                  <td style="padding-bottom: 10px;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <!-- Step 1 -->
-                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F8F8FF" style="background-color: #F8F8FF; border: 1px solid #E0E7FF; border-radius: 10px; padding: 16px;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #192CE7; margin-bottom: 6px;">
-                            STEP 01 &bull; PROFILE SETUP
+                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; margin-bottom: 4px;">
+                            01 &mdash; Profile setup
                           </div>
-                          <h4 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h4 style="margin: 0 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Upload CV or build profile
                           </h4>
                           <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.5; color: #64748B;">
-                            Highlight your competencies and accomplishments in under 2 minutes.
+                            Highlight your competencies and accomplishments in under two minutes.
                           </p>
                         </td>
 
@@ -619,11 +591,11 @@
                         <td width="20" class="mobile-stack-gap" style="width: 20px; font-size: 0; line-height: 0;">&nbsp;</td>
 
                         <!-- Step 2 -->
-                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F5FBFF" style="background-color: #F5FBFF; border: 1px solid #BAE6FD; border-radius: 10px; padding: 16px;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #0284C7; margin-bottom: 6px;">
-                            STEP 02 &bull; SMART MATCHING
+                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; margin-bottom: 4px;">
+                            02 &mdash; Smart matching
                           </div>
-                          <h4 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h4 style="margin: 0 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Discover opportunities
                           </h4>
                           <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.5; color: #64748B;">
@@ -641,11 +613,11 @@
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <!-- Step 3 -->
-                        <td width="254" valign="top" class="mobile-stack" bgcolor="#FAF8FF" style="background-color: #FAF8FF; border: 1px solid #DDD6FE; border-radius: 10px; padding: 16px;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #7C3AED; margin-bottom: 6px;">
-                            STEP 03 &bull; ROLE CLARITY
+                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; margin-bottom: 4px;">
+                            03 &mdash; Role clarity
                           </div>
-                          <h4 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h4 style="margin: 0 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Explore verified details
                           </h4>
                           <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.5; color: #64748B;">
@@ -657,11 +629,11 @@
                         <td width="20" class="mobile-stack-gap" style="width: 20px; font-size: 0; line-height: 0;">&nbsp;</td>
 
                         <!-- Step 4 -->
-                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F4FAF6" style="background-color: #F4FAF6; border: 1px solid #A7F3D0; border-radius: 10px; padding: 16px;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 700; color: #059669; margin-bottom: 6px;">
-                            STEP 04 &bull; MOVE FORWARD
+                        <td width="254" valign="top" class="mobile-stack" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; font-weight: 600; color: #192CE7; margin-bottom: 4px;">
+                            04 &mdash; Move forward
                           </div>
-                          <h4 style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 700; color: #0F172A; line-height: 1.3;">
+                          <h4 style="margin: 0 0 4px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #0F172A; line-height: 1.3;">
                             Direct interview requests
                           </h4>
                           <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.5; color: #64748B;">
@@ -678,37 +650,36 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- SECTION 5: CANDIDATE TRUST & SAFETY STRIP                       -->
-          <!-- Component adaptation from FAQSection.tsx                        -->
+          <!-- SECTION 5: CANDIDATE TRUST & SAFETY STRIP (No emojis)           -->
           <!-- =============================================================== -->
           <tr>
-            <td align="left" style="padding: 0 36px 36px 36px;" class="mobile-padding">
+            <td align="left" style="padding: 0 36px 32px 36px;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 12px; padding: 18px 20px;">
                 <tr>
                   <td>
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <td width="33%" valign="top" class="mobile-stack" style="padding-right: 12px;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">
-                            &#128176; 100% Free
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; font-weight: 600; color: #0F172A; margin-bottom: 3px;">
+                            Free for candidates
                           </div>
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12px; color: #64748B; line-height: 1.4;">
-                            Zero subscription or match fees for candidates ever.
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; color: #64748B; line-height: 1.45;">
+                            Zero subscription or placement fees for jobseekers, ever.
                           </div>
                         </td>
-                        <td width="33%" valign="top" class="mobile-stack" style="padding-right: 12px; padding-top: 10px; padding-top: 0;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">
-                            &#128274; Data Security
+                        <td width="33%" valign="top" class="mobile-stack" style="padding-right: 12px;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; font-weight: 600; color: #0F172A; margin-bottom: 3px;">
+                            Data security first
                           </div>
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12px; color: #64748B; line-height: 1.4;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; color: #64748B; line-height: 1.45;">
                             SOC-2 &amp; GDPR compliant. Completely confidential.
                           </div>
                         </td>
-                        <td width="33%" valign="top" class="mobile-stack" style="padding-top: 10px; padding-top: 0;">
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 13px; font-weight: 700; color: #0F172A; margin-bottom: 4px;">
-                            &#10004; Verified Employers
+                        <td width="33%" valign="top" class="mobile-stack">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12.5px; font-weight: 600; color: #0F172A; margin-bottom: 3px;">
+                            Verified employers
                           </div>
-                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 12px; color: #64748B; line-height: 1.4;">
+                          <div style="font-family: 'General Sans', Arial, sans-serif; font-size: 11.5px; color: #64748B; line-height: 1.45;">
                             No agency headhunters, only verified hiring teams.
                           </div>
                         </td>
@@ -720,24 +691,24 @@
             </td>
           </tr>
 
-          <!-- 06 — CLOSING CTA SECTION (Soft Lavender Container) -->
+          <!-- 06 — CLOSING CTA SECTION -->
           <tr>
             <td align="center" style="padding: 0 36px 36px 36px;" class="mobile-padding">
-              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F5F3FF" style="background-color: #F5F3FF; border-radius: 14px; border: 1px solid #E0E7FF; text-align: center;">
+              <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8FAFC" style="background-color: #F8FAFC; border-radius: 14px; border: 1px solid #E2E8F0; text-align: center;">
                 <tr>
-                  <td align="center" style="padding: 34px 24px;">
+                  <td align="center" style="padding: 32px 24px;">
                     <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <td align="center" style="padding-bottom: 8px;">
-                          <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 22px; font-weight: 700; color: #0F172A; line-height: 1.25;">
-                            The right opportunity could be your next move.
+                        <td align="center" style="padding-bottom: 6px;">
+                          <h2 class="mobile-h2" style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 21px; font-weight: 600; color: #0F172A; line-height: 1.3;">
+                            Your next career milestone starts here.
                           </h2>
                         </td>
                       </tr>
                       <tr>
-                        <td align="center" style="padding-bottom: 22px;">
-                          <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; line-height: 1.55; color: #475569; max-width: 440px;">
-                            Join professionals discovering career matches faster with intelligent AI-powered matching.
+                        <td align="center" style="padding-bottom: 20px;">
+                          <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #64748B; max-width: 440px;">
+                            Join professionals discovering career matches faster with intelligent matching and direct interviews.
                           </p>
                         </td>
                       </tr>
@@ -745,11 +716,11 @@
                         <td align="center">
                           <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-btn-container">
                             <tr>
-                              <td align="center" bgcolor="#192CE7" style="border-radius: 9999px; background-color: #192CE7; box-shadow: 0 4px 14px rgba(25, 44, 231, 0.28);">
-                                <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_closing#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 14px 32px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
-                                  <!--[if mso]><i style="letter-spacing: 32px; mso-font-width: -100%; mso-text-raise: 28pt;">&nbsp;</i><![endif]-->
-                                  <span style="mso-text-raise: 14pt;">Explore Jobs &rarr;</span>
-                                  <!--[if mso]><i style="letter-spacing: 32px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
+                              <td align="center" bgcolor="#192CE7" style="border-radius: 9999px; background-color: #192CE7; box-shadow: 0 4px 14px rgba(25, 44, 231, 0.2);">
+                                <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_closing#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 14px; font-weight: 600; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 13px 30px; border-radius: 9999px; line-height: 1; mso-padding-alt: 0;">
+                                  <!--[if mso]><i style="letter-spacing: 30px; mso-font-width: -100%; mso-text-raise: 26pt;">&nbsp;</i><![endif]-->
+                                  <span style="mso-text-raise: 13pt;">Explore Jobs &rarr;</span>
+                                  <!--[if mso]><i style="letter-spacing: 30px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
                                 </a>
                               </td>
                             </tr>
@@ -765,67 +736,82 @@
 
           <!-- 07 — FOOTER -->
           <tr>
-            <td align="center" bgcolor="#F8FAFC" style="background-color: #F8FAFC; padding: 32px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
+            <td align="center" bgcolor="#F8FAFC" style="background-color: #F8FAFC; padding: 30px 36px; border-top: 1px solid #F1F5F9;" class="mobile-padding">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
-                  <td align="left" style="padding-bottom: 12px;">
+                  <td align="left" style="padding-bottom: 10px;">
                     <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_logo" target="_blank" style="text-decoration: none; display: inline-block;">
-                      <img src="https://job10.ai/images/email/job10-logo.png" alt="Job10" width="96" height="34" border="0" style="display: block; width: 96px; height: auto;" />
+                      <img src="https://job10.ai/images/email/job10-logo.png" alt="Job10" width="92" height="32" border="0" style="display: block; width: 92px; height: auto;" />
                     </a>
                   </td>
                 </tr>
                 <tr>
                   <td align="left" style="padding-bottom: 16px;">
-                    <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; line-height: 1.5; color: #64748B;">
-                      Job10 connects qualified professionals with high-growth companies worldwide through AI-powered talent matching and direct interview scheduling.
+                    <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12.5px; line-height: 1.5; color: #64748B;">
+                      Job10 connects qualified professionals with high-growth companies worldwide through intelligent talent matching and direct interview scheduling.
                     </p>
                   </td>
                 </tr>
 
                 <!-- Utility Navigation Links -->
                 <tr>
-                  <td align="left" style="padding-bottom: 18px;">
-                    <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; line-height: 1.6; color: #94A3B8;">
-                      <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_jobs#jobs" target="_blank" class="link-hover" style="color: #64748B; text-decoration: none;">Browse Jobs</a>
-                      &nbsp;&bull;&nbsp;
-                      <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_how#how-it-works" target="_blank" class="link-hover" style="color: #64748B; text-decoration: none;">How It Works</a>
-                      &nbsp;&bull;&nbsp;
-                      <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_faq#faq" target="_blank" class="link-hover" style="color: #64748B; text-decoration: none;">FAQ</a>
-                      &nbsp;&bull;&nbsp;
-                      <a href="mailto:hello@job10.ai" class="link-hover" style="color: #64748B; text-decoration: none;">hello@job10.ai</a>
+                  <td align="left" style="padding-bottom: 20px;">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td style="padding-right: 14px;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_how#how-it-works" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #64748B; text-decoration: none;">
+                            How it works
+                          </a>
+                        </td>
+                        <td style="padding-right: 14px;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_jobs#jobs" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #64748B; text-decoration: none;">
+                            Browse jobs
+                          </a>
+                        </td>
+                        <td style="padding-right: 14px;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_faq#faq" target="_blank" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #64748B; text-decoration: none;">
+                            FAQ
+                          </a>
+                        </td>
+                        <td>
+                          <a href="mailto:hello@job10.ai" class="link-hover" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 12px; font-weight: 500; color: #64748B; text-decoration: none;">
+                            Contact
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Compliance Legal Disclaimers -->
+                <tr>
+                  <td align="left" style="border-top: 1px solid #E2E8F0; padding-top: 18px;">
+                    <p style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; line-height: 1.45; color: #94A3B8;">
+                      You are receiving this email because you signed up for updates on Job10 or expressed interest in career opportunities.
+                    </p>
+                    <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; line-height: 1.45; color: #94A3B8;">
+                      &copy; 2026 Job10 Inc. &bull; 548 Market St, Suite 34102, San Francisco, CA 94104<br />
+                      <a href="{{unsubscribe_url}}" target="_blank" style="color: #64748B; text-decoration: underline;">Unsubscribe</a> &nbsp;|&nbsp; 
+                      <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_privacy" target="_blank" style="color: #64748B; text-decoration: underline;">Privacy Policy</a> &nbsp;|&nbsp;
+                      <a href="{{webview_url}}" target="_blank" style="color: #64748B; text-decoration: underline;">View in browser</a>
                     </p>
                   </td>
                 </tr>
 
-                <!-- Legal Compliance & Unsubscribe (CAN-SPAM / GDPR) -->
-                <tr>
-                  <td align="left" style="border-top: 1px solid #E2E8F0; padding-top: 16px;">
-                    <p style="margin: 0 0 6px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; line-height: 1.5; color: #94A3B8;">
-                      Job10 Inc. &bull; 548 Market St, Suite 34102 &bull; San Francisco, CA 94104
-                    </p>
-                    <p style="margin: 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; line-height: 1.5; color: #94A3B8;">
-                      You received this email because you signed up for career updates or registered interest in Job10.
-                      <br class="mobile-hide" />
-                      <a href="{{unsubscribe_url}}" target="_blank" style="color: #64748B; text-decoration: underline;">Unsubscribe from career updates</a>
-                      &nbsp;|&nbsp;
-                      <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_privacy" target="_blank" style="color: #64748B; text-decoration: underline;">Privacy Policy</a>
-                    </p>
-                  </td>
-                </tr>
               </table>
             </td>
           </tr>
 
         </table>
-        <!-- END MAIN CONTAINER -->
-
         <!--[if (gte mso 9)|(IE)]>
         </td>
         </tr>
         </table>
         <![endif]-->
+
       </td>
     </tr>
   </table>
+
 </body>
 </html>
