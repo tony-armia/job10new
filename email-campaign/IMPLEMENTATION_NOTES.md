@@ -37,10 +37,14 @@ email-campaign/
 * **Subject Line:** `Your next opportunity could be closer than you think`
 * **Preheader:** `Discover jobs matched to your skills and experience with Job10.`
 * **Hero Headline:** `Your next opportunity starts with a better match.`
-* **Primary Value Props:**
-  1. *Discover relevant job matches* — Curated opportunities scored against specific candidate backgrounds.
-  2. *Highlight your skills and experience* — Verified competency profiles presented directly to employers.
-  3. *Explore opportunities with greater confidence* — Direct connections to verified hiring teams without resume black holes.
+* **Components & Sections Included (Landing Page Harmonization):**
+  1. *Hero Block & Showcase Banner* — Approved Jobseeker photography with clear value messaging.
+  2. *Instant AI Resume Parser Card* (adapted from `ResumeUpload.tsx`) — Interactive dropzone mockup highlighting instant skill extraction, zero keyword spam, and 100% privacy with a 10-minute matching CTA.
+  3. *Core Value Proposition (3 Pillars)* — Discover matches, highlight skills, and explore with confidence.
+  4. *Live Opportunity Previews* (adapted from `PopularJobs.tsx`) — Real verified role cards with salary bands ($120k–$155k & $145k–$180k), tech stacks, and 96%/94% AI fit badges.
+  5. *4-Step Candidate Journey* (adapted from `JobseekerJourney.tsx`) — 4-card progression from Profile Setup to Smart Matching, Role Clarity, and Direct Interviews.
+  6. *Trust & Safety Guarantees* (adapted from `FAQSection.tsx`) — 100% Free for candidates, SOC-2/GDPR encryption, and verified direct employers only.
+  7. *Closing Lavender Banner & Footer* — Secondary conversion CTA and standard legal/preference controls.
 * **Primary CTA:** `Find My Next Job →`
 * **Closing CTA:** `Explore Jobs →`
 * **Destination URL:**

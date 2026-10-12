@@ -18,6 +18,19 @@ FIND MY NEXT JOB:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs
 
 --------------------------------------------------------------------------------
+UPLOAD YOUR RESUME. LET OPPORTUNITIES FIND YOU.
+--------------------------------------------------------------------------------
+Drop your CV and our matching engine instantly surfaces the roles that
+actually match your experience, skills, and ambitions.
+
+[+] Instant skill extraction: Automatically identifies seniority and tech stack.
+[+] Curated matches, not noise: Only see roles suited to your actual background.
+[+] 100% private: Your contact details are never shared without your consent.
+
+UPLOAD RESUME & MATCH IN 10 MINUTES:
+https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs
+
+--------------------------------------------------------------------------------
 WHY PROFESSIONALS CHOOSE JOB10
 --------------------------------------------------------------------------------
 
@@ -34,16 +47,47 @@ Connect directly with verified hiring teams who have already evaluated your
 fit, cutting time to interview without third-party headhunters.
 
 --------------------------------------------------------------------------------
-THE RIGHT OPPORTUNITY COULD BE YOUR NEXT MOVE.
+SAMPLE VERIFIED OPPORTUNITIES
 --------------------------------------------------------------------------------
 
-Join professionals discovering career matches faster with intelligent
-AI-powered matching.
+* System Administrator & Infrastructure Lead (CloudScale Systems)
+  Remote • Full Time • $120,000 – $155,000 / yr
+  Match: 96% Fit • AI-Scored
+  Tech: Kubernetes, AWS, Linux, Architecture
+  Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs
+
+* Senior DevOps & Cloud Operations Engineer (Nexus Networks)
+  San Francisco / Hybrid • Full Time • $145,000 – $180,000 / yr
+  Match: 94% Fit • High Affinity
+  Tech: Terraform, Cloud Ops, CI/CD
+  Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs
+
+Browse 10,000+ active roles:
+https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs
+
+--------------------------------------------------------------------------------
+FROM YOUR PROFILE TO MOVING FORWARD IN 4 STEPS
+--------------------------------------------------------------------------------
+
+STEP 01 — PROFILE SETUP: Upload CV or build verified profile in under 2 min.
+STEP 02 — SMART MATCHING: Review curated roles matched to your actual skills.
+STEP 03 — ROLE CLARITY: Transparent salary benchmarks, tech stack, and culture.
+STEP 04 — DIRECT INTERVIEWS: Connect directly with hiring decision-makers.
+
+--------------------------------------------------------------------------------
+CANDIDATE TRUST & SAFETY
+--------------------------------------------------------------------------------
+* 100% Free Forever: Zero subscription or placement fees for jobseekers.
+* SOC-2 & GDPR Encrypted: Complete privacy and confidentiality.
+* Verified Direct Employers: No third-party headhunters or unsolicited spam.
+
+--------------------------------------------------------------------------------
+THE RIGHT OPPORTUNITY COULD BE YOUR NEXT MOVE.
+--------------------------------------------------------------------------------
 
 EXPLORE JOBS NOW:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_closing#jobs
 
---------------------------------------------------------------------------------
 HOW IT WORKS:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_how#how-it-works
 
@@ -55,13 +99,6 @@ hello@job10.ai
 
 ================================================================================
 Job10 Inc. • 548 Market St, Suite 34102 • San Francisco, CA 94104
-
-You received this email because you signed up for career updates or registered
-interest in Job10.
-
-To unsubscribe from career emails:
-{{unsubscribe_url}}
-
-Privacy Policy:
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_privacy
+Unsubscribe: {{unsubscribe_url}}
+Privacy Policy: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_privacy
 ================================================================================
