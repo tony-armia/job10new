@@ -80,6 +80,15 @@
         max-width: 100% !important;
         border-radius: 0 !important;
       }
+      .mobile-hero-bg { background-position: right center !important; }
+      .mobile-hero-card {
+        background: rgba(255, 255, 255, 0.92) !important;
+        border-radius: 10px !important;
+        padding: 18px 16px !important;
+        border: 1px solid rgba(226, 232, 240, 0.8) !important;
+        box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08) !important;
+      }
+      .mobile-badge-cell { padding-top: 16px !important; text-align: left !important; }
       .mobile-padding {
         padding-left: 20px !important;
         padding-right: 20px !important;
@@ -180,27 +189,33 @@
           </tr>
 
           <!-- =============================================================== -->
-          <!-- 02 — HERO SECTION (SPLIT: COPY ON LEFT, WOMAN ON RIGHT)         -->
+          <!-- 02 — HERO SECTION (INTEGRATED COMPOSITE HERO BACKGROUND)        -->
           <!-- =============================================================== -->
           <tr>
-            <td align="left" style="padding: 28px 34px 24px 34px; background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFD 100%);" class="mobile-padding">
+            <td align="left" bgcolor="#F8FAFC" background="https://job10.ai/images/email/hero-composite.jpg" class="mobile-hero-bg mobile-padding" style="background-color: #F8FAFC; background-image: url('https://job10.ai/images/email/hero-composite.jpg'); background-repeat: no-repeat; background-position: right center; background-size: cover; padding: 36px 34px 34px 34px;">
+              <!--[if gte mso 9]>
+              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px; height:320px;">
+              <v:fill type="tile" src="https://job10.ai/images/email/hero-composite.jpg" color="#F8FAFC" />
+              <v:textbox inset="0,0,0,0">
+              <![endif]-->
               <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
-                  <!-- Left: Headline, Description & CTA Button -->
-                  <td width="280" valign="top" class="mobile-stack" style="padding-right: 14px;">
-                    <span style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #192CE7; display: block; margin-bottom: 8px;">
+                  <!-- Left Column: Copy & Primary CTA (Positioned over clean open wave area) -->
+                  <td width="55%" valign="middle" class="mobile-stack" style="padding-right: 12px;">
+                    <div class="mobile-hero-card">
+                    <div style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11.5px; font-weight: 500; color: #192CE7; margin-bottom: 6px;">
                       Career discovery for professionals
-                    </span>
-                    <h1 class="mobile-h1" style="margin: 0 0 12px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 29px; line-height: 1.18; font-weight: 600; color: #0F172A; letter-spacing: -0.4px;">
-                      Your next<br />opportunity<br />starts with a<br /><span style="color: #192CE7;">better match.</span>
+                    </div>
+                    <h1 class="mobile-h1" style="margin: 0 0 10px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 24px; line-height: 1.25; font-weight: 600; color: #0F172A; letter-spacing: -0.2px;">
+                      Your next opportunity starts with a <span style="color: #192CE7;">better match.</span>
                     </h1>
-                    <p style="margin: 0 0 20px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13.5px; line-height: 1.55; color: #475569;">
+                    <p class="mobile-body" style="margin: 0 0 18px 0; font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; line-height: 1.55; color: #475569;">
                       Job10 connects your skills, experience and ambitions with verified opportunities worth your time.
                     </p>
-                    <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="mobile-btn-container">
+                    <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="center" bgcolor="#192CE7" style="border-radius: 6px; background-color: #192CE7;">
-                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs" target="_blank" class="primary-btn mobile-full-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 11px 22px; border-radius: 6px; line-height: 1; mso-padding-alt: 0;">
+                          <a href="https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_hero#jobs" target="_blank" class="primary-btn" style="font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 13px; font-weight: 500; color: #FFFFFF; text-decoration: none; display: inline-block; padding: 11px 22px; border-radius: 6px; line-height: 1; mso-padding-alt: 0;">
                             <!--[if mso]><i style="letter-spacing: 22px; mso-font-width: -100%; mso-text-raise: 22pt;">&nbsp;</i><![endif]-->
                             <span style="mso-text-raise: 11pt;">Explore Opportunities &rarr;</span>
                             <!--[if mso]><i style="letter-spacing: 22px; mso-font-width: -100%;">&nbsp;</i><![endif]-->
@@ -208,22 +223,21 @@
                         </td>
                       </tr>
                     </table>
+                    </div>
                   </td>
 
-                  <!-- Right: Photo with Floating 10-Minute Badge -->
-                  <td width="238" valign="top" class="mobile-stack" style="padding-top: 6px;">
-                    <div style="position: relative; border-radius: 12px; overflow: hidden; border: 1px solid #E2E8F0; background-color: #F1F5F9;">
-                      <img src="https://job10.ai/images/email/hero-woman.jpg" alt="Job10 professional career discovery" width="238" height="230" border="0" style="display: block; width: 100%; height: auto;" />
-                    </div>
-                    <!-- Minimal 10-Min Badge Card -->
-                    <div style="margin-top: 10px; background-color: #FFFFFF; border: 1px solid #D6E2FC; border-radius: 8px; padding: 8px 12px; text-align: center;">
-                      <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 16px; font-weight: 600; color: #192CE7;">10</span>
-                      <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 12px; font-weight: 500; color: #0F172A; margin-left: 4px;">Minutes</span>
-                      <span style="font-family: 'General Sans', Arial, sans-serif; font-size: 11px; color: #64748B; margin-left: 4px;">to get an interview</span>
+                  <!-- Right Column: Transparent spacer reserving visual space for the woman in the background + subtle badge -->
+                  <td width="45%" valign="bottom" align="right" class="mobile-stack mobile-badge-cell" style="padding-top: 140px;">
+                    <div style="display: inline-block; background-color: rgba(255, 255, 255, 0.94); border: 1px solid #E2E8F0; border-radius: 6px; padding: 6px 12px; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08); font-family: 'General Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; font-size: 11px; color: #475569;">
+                      <span style="font-weight: 600; color: #192CE7;">10</span> Minutes to get an interview
                     </div>
                   </td>
                 </tr>
               </table>
+              <!--[if gte mso 9]>
+              </v:textbox>
+              </v:rect>
+              <![endif]-->
             </td>
           </tr>
 
