@@ -1,23 +1,26 @@
 # Job10 Email Marketing Campaign
 
-This directory contains the production-ready static HTML and plain-text promotional email templates for the **Job10** launch campaign.
+This directory contains production-ready promotional email campaigns for **Job10**.
 
-## Template Files
+## 1. Standalone Single-File Versions (Shareable & Offline-Ready)
+Each of these files is **100% self-contained** with all images and logos embedded directly as Base64 data. You can share, email, or double-click any single file and it will open in any web browser with all images loading immediately without needing any server or internet connection:
 
-| Template | File | Plain Text | Subject Line |
-| :--- | :--- | :--- | :--- |
-| **Email A — Jobseeker** | [`jobseeker.html`](./jobseeker.html) | [`jobseeker.txt`](./jobseeker.txt) | *Your next opportunity could be closer than you think* |
-| **Email B — Recruiter** | [`recruiter.html`](./recruiter.html) | [`recruiter.txt`](./recruiter.txt) | *Great candidates. Less time searching.* |
-| **Email C — Combined** | [`general.html`](./general.html) | [`general.txt`](./general.txt) | *Your next opportunity. Your next great hire.* |
+| File | Purpose | Subject Line |
+| :--- | :--- | :--- |
+| [`general.html`](./general.html) | Dual Audience / Combined | *Your next opportunity. Your next great hire.* |
+| [`jobseeker.html`](./jobseeker.html) | Jobseeker Campaign | *Your next opportunity could be closer than you think* |
+| [`recruiter.html`](./recruiter.html) | Recruiter Campaign | *Great candidates. Less time searching.* |
+| [`preview.html`](./preview.html) | **All-in-One Presentation Suite** | Interactive viewer with tabs & Desktop/Mobile switchers |
 
-## Assets
-The `assets/` folder contains email-optimized, retina visuals:
-* `job10-logo.png` — Transparent high-res PNG for Outlook/Gmail compatibility (5.4 KB)
-* `hero-jobseeker.jpg` — Approved Jobseeker hero banner (93.0 KB)
-* `hero-recruiter.jpg` — Approved Recruiter tablet showcase (45.5 KB)
-* `hero-combined.jpg` — Platform showcase for dual-audience variant (84.6 KB)
+## 2. Plain-Text Fallbacks
+* [`general.txt`](./general.txt)
+* [`jobseeker.txt`](./jobseeker.txt)
+* [`recruiter.txt`](./recruiter.txt)
 
-*Note: The same assets are also hosted under `/public/images/email/` for direct deployment with the Next.js application.*
+## 3. Hosted Versions for ESP Bulk Sending (`hosted-for-esp/`)
+For Email Service Providers (Klaviyo, Mailchimp, HubSpot, SendGrid) that prefer external HTTPS image URLs during high-volume SMTP delivery:
+* [`hosted-for-esp/general.html`](./hosted-for-esp/general.html)
+* [`hosted-for-esp/jobseeker.html`](./hosted-for-esp/jobseeker.html)
+* [`hosted-for-esp/recruiter.html`](./hosted-for-esp/recruiter.html)
 
-## Documentation
-See [`IMPLEMENTATION_NOTES.md`](./IMPLEMENTATION_NOTES.md) for full technical documentation, ESP merge tag cheat sheet, UTM tracking parameters, and email client compatibility details.
+Images are hosted on your live domain under `/public/images/email/` and backed up in `assets/`.
