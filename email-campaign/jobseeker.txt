@@ -47,18 +47,18 @@ Connect directly with verified hiring teams who have already evaluated your
 fit, cutting time to interview without third-party headhunters.
 
 --------------------------------------------------------------------------------
-SAMPLE VERIFIED OPPORTUNITIES
+POPULAR OPPORTUNITIES
 --------------------------------------------------------------------------------
 
 * System Administrator & Infrastructure Lead (CloudScale Systems)
   Remote • Full Time • $120,000 – $155,000 / yr
-  Match: 96% Fit • AI-Scored
+  Status: Actively Hiring
   Tech: Kubernetes, AWS, Linux, Architecture
   Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs
 
 * Senior DevOps & Cloud Operations Engineer (Nexus Networks)
   San Francisco / Hybrid • Full Time • $145,000 – $180,000 / yr
-  Match: 94% Fit • High Affinity
+  Status: Featured Role
   Tech: Terraform, Cloud Ops, CI/CD
   Link: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs
 
