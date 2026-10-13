@@ -26,48 +26,7 @@ UPLOAD RESUME:
 https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_upload_cta#jobs
 Accepted formats: PDF, DOC or DOCX (Max 10MB)
 
-HOW IT WORKS:
-01. Upload resume: PDF, DOC or DOCX (Max 10MB)
-02. Get matched: Our AI finds the most relevant opportunities
-03. Get an interview: Connect with hiring companies in the next 10 minutes
-
---------------------------------------------------------------------------------
-ROLES WORTH YOUR TIME
---------------------------------------------------------------------------------
-
-* System Administrator & Infrastructure Lead — CloudScale Systems
-  Remote • Full-time • $120,000 – $155,000 / yr
-  Status: Actively hiring
-  Tech: Kubernetes, AWS, Linux, Infrastructure
-  https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_1#jobs
-
-* Senior DevOps & Cloud Operations Engineer — Nexus Networks
-  San Francisco / Hybrid • Full-time • $145,000 – $180,000 / yr
-  Status: Featured role
-  Tech: Terraform, Cloud Ops, CI/CD, AWS
-  https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_sample_job_2#jobs
-
-Browse 10,000+ active roles:
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_browse_all#jobs
-
---------------------------------------------------------------------------------
-YOUR NEXT CAREER MILESTONE STARTS HERE.
---------------------------------------------------------------------------------
-
-EXPLORE JOBS NOW:
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_closing#jobs
-
-HOW IT WORKS:
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_how#how-it-works
-
-FREQUENTLY ASKED QUESTIONS:
-https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_faq#faq
-
-CONTACT US:
-hello@job10.ai
-
 ================================================================================
-Job10 Inc. • 548 Market St, Suite 34102 • San Francisco, CA 94104
-Unsubscribe: {{unsubscribe_url}}
-Privacy Policy: https://job10.ai/?role=jobseeker&utm_source=email&utm_medium=email&utm_campaign=job10_launch&utm_content=jobseeker_footer_privacy
+Job10
+Job10 is an intelligent talent matching platform connecting top companies with world-class professionals worldwide.
 ================================================================================
